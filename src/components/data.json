@@ -1,0 +1,5624 @@
+{
+  "nhits": 106,
+  "parameters": {
+    "dataset": "vlille-realtime",
+    "timezone": "UTC",
+    "rows": 20,
+    "format": "json",
+    "facet": ["libelle", "nom", "commune", "etat", "type", "etatconnexion"]
+  },
+  "records": [
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "ef84a05a565deb315228b079839095182c045f1f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 24,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 8,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.632366, 3.062313],
+        "nom": "PLACE RICHEBE",
+        "adresse": "3 PLACE RICHEBE",
+        "geo": [50.632366, 3.062313]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.062313, 50.632366]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "278aa9df0906af6bc3cd29b5d3c3d9dd2e397ee8",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 21,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 9,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.63393, 3.044986],
+        "nom": "RUE DE TOUL",
+        "adresse": "18 RUE DE TOUL",
+        "geo": [50.63393, 3.044986]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.044986, 50.63393]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "dae4b573b2e11dc4c22186b9e004101d1c7c7c2b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "MARCQ EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 124,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6618, 3.096235],
+        "nom": "CLEMENCEAU HIPPODROME",
+        "adresse": "916-920 AVENUE DE LA R\u00c9PUBLIQ",
+        "geo": [50.6618, 3.096235]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.096235, 50.6618]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "92de32733cd56ffd713707eab9657895c9c0a955",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 9,
+        "commune": "MARCQ EN BAROEUL",
+        "type": "SANS TPE",
+        "libelle": 122,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.66026, 3.087568],
+        "nom": "PISCINE DE MARCQ",
+        "adresse": "298-300 AVENUE DE LATTRE DE TASSIGNY",
+        "geo": [50.66026, 3.087568]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.087568, 50.66026]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fe02d86554b53e4c5a53a9de89e3454d8887f32b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 14,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 52,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62276, 3.063799],
+        "nom": "PLACE COLETTE BESSON",
+        "adresse": "FACE AU 37 RUE DE WAZEMMES",
+        "geo": [50.62276, 3.063799]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.063799, 50.62276]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b492e5cf09071b0014a0405f029919f87e52c2bf",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 166,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.630849, 3.044719],
+        "nom": "CAMPUS ST RAPHAEL",
+        "adresse": "100 Boulevard Vauban",
+        "geo": [50.630849, 3.044719]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.044719, 50.630849]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e262deb6bdf2bd339975697487646055c99a511f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 164,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63393, 3.061687],
+        "nom": "HOPITAL MILITAIRE",
+        "adresse": "2 rue Pierre Dupont",
+        "geo": [50.63393, 3.061687]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.061687, 50.63393]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5a3d9b68042a89cfe8ad1b9d2aa31eae8204f111",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 140,
+        "datemiseajour": "2019-10-17T14:37:06+02:00",
+        "localisation": [50.623795, 3.144815],
+        "nom": "RUE CORNEILLE",
+        "adresse": "RUE CORNEILLE",
+        "geo": [50.623795, 3.144815]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.144815, 50.623795]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6a1204632d571db747359d5271f2e21958074bd2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 11,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 33,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63022, 3.035681],
+        "nom": "PORT DE LILLE",
+        "adresse": "18 RUE DE TURENNE",
+        "geo": [50.63022, 3.035681]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.035681, 50.63022]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "301edb33dc7276e7346e6cab110788590396bda1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 12,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 12,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.637486, 3.065902],
+        "nom": "OPERA",
+        "adresse": "FACE AU 8 RUE ANATOLE FRANCE",
+        "geo": [50.637486, 3.065902]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.065902, 50.637486]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fc1653c9ff7062af87f1863f79e63e502dac3d74",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 168,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.630855, 3.0226],
+        "nom": "RIVES DE LA HAUTE DEULE",
+        "adresse": "280-248 Rue du Pont \u00e0 Fourchon",
+        "geo": [50.630855, 3.0226]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0226, 50.630855]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c7aae24274e7677ab5fcc2a15566c8edb83b8a58",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "LAMBERSART",
+        "type": "SANS TPE",
+        "libelle": 182,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64972, 3.038075],
+        "nom": "BECQUART",
+        "adresse": "82 Avenue Becquart",
+        "geo": [50.64972, 3.038075]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.038075, 50.64972]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b28430c484e21d2d35cb70109272e480fe35c063",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 12,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 125,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.643883, 3.118579],
+        "nom": "FORT DE MONS",
+        "adresse": "12, RUE DE NORMANDIE",
+        "geo": [50.643883, 3.118579]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.118579, 50.643883]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "d2a10ba5de68b5a6ce15de6641bd1c490b797463",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 127,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63708, 3.127964],
+        "nom": "FLERS MAIRIE",
+        "adresse": "16 RUE DU G\u00c9N\u00c9RAL LECLERC",
+        "geo": [50.63708, 3.127964]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.127964, 50.63708]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6b8ad69733443a32887e54a0a3570c41f1eaf459",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 248,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.728798, 3.158835],
+        "nom": "RUE SAINT BLAISE",
+        "adresse": "85, RUE DE GAND",
+        "geo": [50.728798, 3.158835]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.158835, 50.728798]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fa014b3a9b3f16ce54c08f441c65aa8951790254",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 254,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.717323, 3.162236],
+        "nom": "SEBASTOPOL",
+        "adresse": "FACE AU 69 RUE CARNOT",
+        "geo": [50.717323, 3.162236]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.162236, 50.717323]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a4c838ce99c51e427d5abf18dc92b5d0fe2a0b80",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 18,
+        "commune": "LILLE",
+        "type": "SANS TPE",
+        "libelle": 91,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63422, 3.096542],
+        "nom": "SQUARE DES MERES",
+        "adresse": "95 RUE DE LANNOY",
+        "geo": [50.63422, 3.096542]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.096542, 50.63422]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "256e3162a750634ac072e7f14a5b0149693581de",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 35,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62899, 3.043307],
+        "nom": "LECLERC",
+        "adresse": "24 PLACE MARECHAL LECLERC",
+        "geo": [50.62899, 3.043307]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.043307, 50.62899]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "3f443706e549c832710c84005d00723d5a476544",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 43,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.629044, 3.058288],
+        "nom": "THEATRE SEBASTOPOL",
+        "adresse": "3 PLACE SEBASTOPOL",
+        "geo": [50.629044, 3.058288]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.058288, 50.629044]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "922427985a6d886aa735ca8181a0c6d8b62f6246",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 98,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6549, 3.068756],
+        "nom": "PLACE DU MARCHE",
+        "adresse": "ANGLE DE LA RUE GAMBETTA",
+        "geo": [50.6549, 3.068756]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.068756, 50.6549]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "789d1545184e14b263e0ccc50dbdf3c4b1bad8e0",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 13,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 42,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.627586, 3.061974],
+        "nom": "PLACE PHILIPPE LEBON",
+        "adresse": "15 PLACE PHILLIPPE LEBON",
+        "geo": [50.627586, 3.061974]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.061974, 50.627586]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6f55bf2493bbf51f0490ee50987490d05135c4e6",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 5,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 66,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63237, 3.066273],
+        "nom": "DELESALLE MEDIATHEQUE",
+        "adresse": "35 RUE EDOUARD DELESALLE",
+        "geo": [50.63237, 3.066273]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.066273, 50.63237]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "109455a36378e3a5b0ad83d2279212d6ff6e6da0",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 12,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 108,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.645267, 3.100516],
+        "nom": "GENERAL DE GAULLE",
+        "adresse": "108 RUE DU GENERAL DE GAULLE",
+        "geo": [50.645267, 3.100516]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.100516, 50.645267]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "109068ede961983697d353e26d9f598979bf4525",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 15,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 55,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.617847, 3.061758],
+        "nom": "PORTE D'ARRAS",
+        "adresse": "3 PLACE JACQUES FEBVRIER",
+        "geo": [50.617847, 3.061758]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.061758, 50.617847]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fff3776bbd85032f7c57c71570fdf09e805f7370",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 5,
+        "commune": "HELLEMMES",
+        "type": "SANS TPE",
+        "libelle": 111,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62486, 3.116677],
+        "nom": "HELLEMMES CIMETIERE",
+        "adresse": "318, RUE ROGER SALENGRO",
+        "geo": [50.62486, 3.116677]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.116677, 50.62486]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fdd36680ce4f06b3c7eeb59f0c7b76d40def9fbe",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 4,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 110,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62487, 3.034234],
+        "nom": "RUE BONTE-POLLET",
+        "adresse": "11 RUE BONTE POLLET",
+        "geo": [50.62487, 3.034234]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.034234, 50.62487]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "9cb7765400f9e22cecf163cef850f85e8ada4f52",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 71,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.634045, 3.030778],
+        "nom": "BOIS BLANCS",
+        "adresse": "122 AVENUE DE DUNKERQUE",
+        "geo": [50.634045, 3.030778]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.030778, 50.634045]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "d951c5801d573f20889b8b8ebeebb62f68a764be",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 11,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 115,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.651497, 3.072316],
+        "nom": "DE GAULLE",
+        "adresse": "85, RUE DU G\u00c9N\u00c9RAL DE GAULLE",
+        "geo": [50.651497, 3.072316]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.072316, 50.651497]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7e4005535c883006eef2d8689d79aa5aac057537",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 3,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 169,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.644685, 3.057953],
+        "nom": "JEMMAPES",
+        "adresse": "59 Rue Jemmapes",
+        "geo": [50.644685, 3.057953]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.057953, 50.644685]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "83c098cf9baad4530d088d4931de5fc7868744a6",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 72,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.637302, 3.024314],
+        "nom": "CANTELEU",
+        "adresse": "237 AVENUE DE DUNKERQUE",
+        "geo": [50.637302, 3.024314]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.024314, 50.637302]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e5decefb7f404a94fafd43a439835a1c6555f661",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 129,
+        "datemiseajour": "2019-10-21T09:46:05+02:00",
+        "localisation": [50.63608, 3.130853],
+        "nom": "FLERS CHATEAU",
+        "adresse": "RUE DE LA CHEVALERIE",
+        "geo": [50.63608, 3.130853]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.130853, 50.63608]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6a685cf586b8d0fbdb8f0321143bc9dc3ecdb817",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 6,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 246,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.72271, 3.163794],
+        "nom": "CAVELL",
+        "adresse": "FACE AU 49 RUE DE LA CLOCHE",
+        "geo": [50.72271, 3.163794]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.163794, 50.72271]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "dd365e49d8813d599b1756868a833ba20017efa4",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 7,
+        "commune": "LAMBERSART",
+        "type": "SANS TPE",
+        "libelle": 119,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.640957, 3.018803],
+        "nom": "LOMME-LAMBERSART",
+        "adresse": "390, AVENUE DE DUNKERQUE",
+        "geo": [50.640957, 3.018803]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.018803, 50.640957]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7cf386453912ce127255f940ba76ef48c72fe328",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 8,
+        "commune": "CROIX",
+        "type": "AVEC TPE",
+        "libelle": 200,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.679123, 3.155906],
+        "nom": "MAIRIE DE CROIX",
+        "adresse": "FACE AU 232, RUE JEAN JAUR\u00c8S",
+        "geo": [50.679123, 3.155906]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.155906, 50.679123]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1c542a0f2765e2bf6e198dc7508aa0a651d4cc7f",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 16,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 233,
+        "datemiseajour": "2019-07-10T17:47:05+02:00",
+        "localisation": [50.702026, 3.172654],
+        "nom": "RUE DE TOURCOING",
+        "adresse": "RUE DE TOURCOING (SUR LA PARKING GRDF)",
+        "geo": [50.702026, 3.172654]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.172654, 50.702026]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "754a931e6efd842be2ae63a3c1ace9eca19b9bbc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 4,
+        "commune": "MONS EN BAROEUL",
+        "type": "SANS TPE",
+        "libelle": 188,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.637103, 3.097538],
+        "nom": "LOUIS BRAILLE",
+        "adresse": "17 rue Louis Braille",
+        "geo": [50.637103, 3.097538]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.097538, 50.637103]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "3d361c51c2d086677a65c39811d036a20792f981",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 257,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.714733, 3.157181],
+        "nom": "CHARLES WATTINNE",
+        "adresse": "PONT HYDRAULIQUE",
+        "geo": [50.714733, 3.157181]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.157181, 50.714733]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "ff7e662e58ad5918f088afbbea573f7bb2045d94",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 245,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.724686, 3.165703],
+        "nom": "JARDIN BOTANIQUE",
+        "adresse": "126, RUE VERTE",
+        "geo": [50.724686, 3.165703]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.165703, 50.724686]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8c7217c3b949f1ec25358082c937834c0fe691c8",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 227,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.699436, 3.159658],
+        "nom": "BVRD ARMENTIERES",
+        "adresse": "1, BOULEVARD D'ARMENTI\u00c8RES",
+        "geo": [50.699436, 3.159658]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.159658, 50.699436]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "807e07d3f1e4fce53a1f1d7a458345896dc814ce",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 12,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 222,
+        "datemiseajour": "2019-07-10T17:47:05+02:00",
+        "localisation": [50.6941, 3.172165],
+        "nom": "LES GOBELINS",
+        "adresse": "32, RUE DE LA COMMUNAUT\u00c9 URBAINE",
+        "geo": [50.6941, 3.172165]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.172165, 50.6941]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "00ef3b531351fe1f0d46305504b58c89ae25aef1",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 231,
+        "datemiseajour": "2019-07-23T19:24:03+02:00",
+        "localisation": [50.689762, 3.177179],
+        "nom": "MOTTE BOSSUT",
+        "adresse": "ROND POINT DE L'EUROPE",
+        "geo": [50.689762, 3.177179]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.177179, 50.689762]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e2005ba0c10d874e7c722de93157d6adb92f57bc",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 89,
+        "datemiseajour": "2019-07-10T17:39:06+02:00",
+        "localisation": [50.619312, 3.041299],
+        "nom": "BOULEVARD DE METZ",
+        "adresse": "40 BOULEVARD DE METZ",
+        "geo": [50.619312, 3.041299]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.041299, 50.619312]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "3a4d235ba0c3d7a46784090519e9a80384cba3ca",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "LILLE HELLEMMES",
+        "type": "AVEC TPE",
+        "libelle": 87,
+        "datemiseajour": "2019-07-10T17:39:06+02:00",
+        "localisation": [50.632393, 3.110669],
+        "nom": "JULES GUESDE",
+        "adresse": "RUE ST ELOI",
+        "geo": [50.632393, 3.110669]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.110669, 50.632393]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "98cc60721a28ff2e8c585c032efa98b8eba3ddff",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 259,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.704693, 3.160515],
+        "nom": "MERCURE",
+        "adresse": "BOULEVARD GAMBETTA",
+        "geo": [50.704693, 3.160515]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.160515, 50.704693]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b0791523793fb246d0094a91ed77dbcd9ef7d2cc",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 3,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 126,
+        "datemiseajour": "2019-07-10T17:41:05+02:00",
+        "localisation": [50.64057, 3.115571],
+        "nom": "LE POLYEDRE",
+        "adresse": "FACE AU 38, AVENUE RHIN ET DANUBE",
+        "geo": [50.64057, 3.115571]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.115571, 50.64057]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f4ab70778a3b8241b9a813ee27764ac3c9dbdbec",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "HELLEMMES",
+        "type": "AVEC TPE",
+        "libelle": 112,
+        "datemiseajour": "2019-07-10T17:40:06+02:00",
+        "localisation": [50.626846, 3.115101],
+        "nom": "SQUARE CHARLES DE GAULLE",
+        "adresse": "4, RUE FERDINAND BUISSON",
+        "geo": [50.626846, 3.115101]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.115101, 50.626846]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a744d812cf8aec47de5486e312ee2a7c5651ea6a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 13,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 26,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63457, 3.068007],
+        "nom": "MOLINEL",
+        "adresse": "58 RUE DU MOLINEL",
+        "geo": [50.63457, 3.068007]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.068007, 50.63457]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a7eaf198d9bcdb221cbb8ac3411452e8f4411ddf",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 215,
+        "datemiseajour": "2019-07-10T17:47:05+02:00",
+        "localisation": [50.684593, 3.200799],
+        "nom": "TROIS PONTS",
+        "adresse": "186, AVENUE JULIEN LAGACHE",
+        "geo": [50.684593, 3.200799]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.200799, 50.684593]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "38cc959d40da2646aa3b4f052e46d5a455ad9dfc",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 16,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 223,
+        "datemiseajour": "2020-01-22T09:27:04+01:00",
+        "localisation": [50.690315, 3.16912],
+        "nom": "PLACE TRICHON",
+        "adresse": "3, PLACE DU TRICHON",
+        "geo": [50.690315, 3.16912]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.16912, 50.690315]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e174aabbba315984faf864d8ee1dcb5a32b04480",
+      "fields": {
+        "etat": "EN MAINTENANCE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 18,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 3,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.636093, 3.050447],
+        "nom": "JARDIN VAUBAN",
+        "adresse": "39 BOULEVARD VAUBAN",
+        "geo": [50.636093, 3.050447]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.050447, 50.636093]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "96288bed7761fcf4f78409acd2968b89a1b24640",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 17,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 2,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.632233, 3.046134],
+        "nom": "UNIVERSITE CATHOLIQUE",
+        "adresse": "RUE DU PORT BD VAUBAN",
+        "geo": [50.632233, 3.046134]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.046134, 50.632233]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "18b269166d31afbff1eaa73ca676067639cdbec7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 14,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 19,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64031, 3.05774],
+        "nom": "RUE ROYALE",
+        "adresse": "40 RUE ROYALE",
+        "geo": [50.64031, 3.05774]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.05774, 50.64031]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "08f6a4b289a4f581eca23cc1ba45d022c93e3c55",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 11,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 76,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.632996, 3.089651],
+        "nom": "FIVES",
+        "adresse": "123 RUE PIERRE LEGRAND",
+        "geo": [50.632996, 3.089651]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.089651, 50.632996]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "504deb028297b81a3965a8fa4df959acc99530a9",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 9,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 17,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.644695, 3.060867],
+        "nom": "HALLE AUX SUCRES",
+        "adresse": "33 AVENUE DU PEUPLE BELGE",
+        "geo": [50.644695, 3.060867]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.060867, 50.644695]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "985b9680072408444b6e05524e66ad6c833206fe",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 17,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 20,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.640385, 3.062053],
+        "nom": "N.D. DE LA TREILLE",
+        "adresse": "PLACE GILLSON",
+        "geo": [50.640385, 3.062053]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.062053, 50.640385]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "19af768c05dacf724aaa536881a519143efa6589",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 14,
+        "nbplacesdispo": 16,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 80,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61989, 3.084357],
+        "nom": "PETIT MAROC",
+        "adresse": "RUE DU PROFESSEUR LANGEVIN",
+        "geo": [50.61989, 3.084357]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.084357, 50.61989]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f68d283012c2dc704b3fb8fcb1557baddfe3abde",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 13,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 90,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.645107, 3.086049],
+        "nom": "LOUVIERE",
+        "adresse": "1 RUE DU DIEU DE MARCQ",
+        "geo": [50.645107, 3.086049]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.086049, 50.645107]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e0676f038aea52b64945ef7be8b52c74ae89ba6f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 24,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 27,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.635014, 3.064802],
+        "nom": "TANNEURS",
+        "adresse": "2 - 10 RUE DES TANNEURS",
+        "geo": [50.635014, 3.064802]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.064802, 50.635014]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "0d74a0bf768fb22390816884b669241c6fe19b90",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 13,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 83,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63407, 3.02066],
+        "nom": "EURATECHNOLOGIES",
+        "adresse": "AVENUE DE BRETAGNE",
+        "geo": [50.63407, 3.02066]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.02066, 50.63407]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "555d71247483c724a6c577e9dbbeb91525825b37",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "SANS TPE",
+        "libelle": 138,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.631298, 3.126914],
+        "nom": "LADRIERE",
+        "adresse": "FACE AU 53 RUE DE FIVES",
+        "geo": [50.631298, 3.126914]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.126914, 50.631298]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "81cdd1ead280be51a8e0868793eb13118621056f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 29,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.647236, 3.059376],
+        "nom": "ST SEBASTIEN",
+        "adresse": "40 RUE SAINT SEBASTIEN",
+        "geo": [50.647236, 3.059376]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.059376, 50.647236]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6c30940f562f14c405ce839e945c87ec4419c203",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 1,
+        "commune": "LILLE HELLEMMES",
+        "type": "SANS TPE",
+        "libelle": 86,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.628742, 3.104017],
+        "nom": "ROGER SALENGRO",
+        "adresse": "68 RUE ROGER SALENGRO",
+        "geo": [50.628742, 3.104017]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.104017, 50.628742]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2bf443c9ebae77d9ed6efd45ebd7897d750efc1b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 24,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 131,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.619602, 3.13197],
+        "nom": "V.ASCQ HOTEL DE VILLE",
+        "adresse": "RUE VERMEER",
+        "geo": [50.619602, 3.13197]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.13197, 50.619602]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "05ff65948c53f101bdc0775580af3518fa9046ee",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 18,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 133,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61915, 3.126501],
+        "nom": "BOULEVARD DE VALMY",
+        "adresse": "FACE AU 233 BOULEVARD DE VALMY",
+        "geo": [50.61915, 3.126501]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.126501, 50.61915]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a869cff6a7ea9e04290d91f0ec038cf7528fd9c6",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 8,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "SANS TPE",
+        "libelle": 142,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6206, 3.138207],
+        "nom": "TREMIERE",
+        "adresse": "RUE TR\u00c9MI\u00c8RES ANGLE RUE DES FUSILL\u00c9S",
+        "geo": [50.6206, 3.138207]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.138207, 50.6206]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e21109f21145b4c7be80b5763ec0dfb01bde623f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 13,
+        "commune": "RONCHIN",
+        "type": "AVEC TPE",
+        "libelle": 150,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.60548, 3.077622],
+        "nom": "RONCHIN MAIRIE",
+        "adresse": "SUR LE PARVIS DE LA MAIRIE",
+        "geo": [50.60548, 3.077622]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.077622, 50.60548]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c8117f6ec1ca79c6731c9c35b9acc1a81e19bf0a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 15,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 137,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.615868, 3.126089],
+        "nom": "HERON PARC",
+        "adresse": "40, RUE DE LA VAGUE",
+        "geo": [50.615868, 3.126089]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.126089, 50.615868]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e3c7a5eb577a00b18ec5f824ee32b287a0995a2d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 8,
+        "commune": "RONCHIN",
+        "type": "AVEC TPE",
+        "libelle": 149,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.609592, 3.075483],
+        "nom": "JEAN JAURES",
+        "adresse": "FACE AU 780 AVENUE JEAN JAURES",
+        "geo": [50.609592, 3.075483]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.075483, 50.609592]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "0ec6953e4d357161166b03466757aa336596e51d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 3,
+        "commune": "FACHES-THUMESNIL",
+        "type": "SANS TPE",
+        "libelle": 152,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.610582, 3.065103],
+        "nom": "CHEMIN ROUGE",
+        "adresse": "FACE AU 2 CHEMIN ROUGE",
+        "geo": [50.610582, 3.065103]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.065103, 50.610582]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f71c6e9781b180d5fa36b18a15a2b201b868f817",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 144,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6258, 3.14862],
+        "nom": "ANNAPPES REPUBLIQUE",
+        "adresse": "FACE AU 1 BIS RUE DE LA STATION",
+        "geo": [50.6258, 3.14862]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.14862, 50.6258]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f9f6aa55e61dc339cbe229a71e11d7b219d8f05f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 9,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 235,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.696327, 3.16713],
+        "nom": "BLANCHEMAILLE",
+        "adresse": "AVENUE DES NATIONS UNIES",
+        "geo": [50.696327, 3.16713]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.16713, 50.696327]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "457a4a16f8c753fe5a51db020491733159dcf467",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 5,
+        "commune": "SAINT ANDRE LEZ LILLE",
+        "type": "SANS TPE",
+        "libelle": 155,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.655098, 3.051201],
+        "nom": "BAILLY",
+        "adresse": "FACE AU 4 RUE GAMBETTA",
+        "geo": [50.655098, 3.051201]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.051201, 50.655098]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "723289fe50c959f7e63d75b17870762aa8eaddd4",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 6,
+        "commune": "LILLE",
+        "type": "SANS TPE",
+        "libelle": 93,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.628918, 3.088147],
+        "nom": "STADE BALLET",
+        "adresse": "85 RUE DU LONG POT",
+        "geo": [50.628918, 3.088147]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.088147, 50.628918]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "67252b91a91b6b6caca93440115fbb288ddf8a8f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 266,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.686408, 3.15843],
+        "nom": "MAIRIE DE QUARTIER OUEST",
+        "adresse": "205-189 rue de l'Epeule",
+        "geo": [50.686408, 3.15843]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.15843, 50.686408]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "cf198945dff04e8ab18ea54e0b3e65e9d43ce91a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 6,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 239,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.730278, 3.167521],
+        "nom": "BVRD DE L EGALITE",
+        "adresse": "SECTEUR BVLD EGALITE",
+        "geo": [50.730278, 3.167521]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.167521, 50.730278]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "9e35a95f26c1ce7d9e3e7d0e3aeb24f0e4e7aefe",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 10,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 219,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.695477, 3.164222],
+        "nom": "GARE JEAN LEBAS",
+        "adresse": "PLACE DE LA GARE",
+        "geo": [50.695477, 3.164222]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.164222, 50.695477]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8044d0012efe2d813f54262ca021abcd4b28b165",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 17,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 5,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.63156, 3.054738],
+        "nom": "MASSENA",
+        "adresse": "73 RUE MASSENA",
+        "geo": [50.63156, 3.054738]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.054738, 50.63156]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5647b7a4c5b34682ef86a7d36291466dcc577952",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 12,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 44,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.629063, 3.053711],
+        "nom": "GAMBETTA UTRECHT",
+        "adresse": "199 RUE LEON GAMBETTA",
+        "geo": [50.629063, 3.053711]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.053711, 50.629063]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b4619d5f34e51da488f9fb19ebb8e88020d78df0",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 9,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 4,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.624695, 3.048961],
+        "nom": "MAISON FOLIE WAZEMMES",
+        "adresse": "28 RUE DE L'HOPITAL SAINT ROCH",
+        "geo": [50.624695, 3.048961]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.048961, 50.624695]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "092c01c8b361c59bcf61f7da50f330ea3a2d0984",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 3,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 7,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.633728, 3.055307],
+        "nom": "PLACE DE STRASBOURG",
+        "adresse": "7 PLACE DE STRASBOURG",
+        "geo": [50.633728, 3.055307]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.055307, 50.633728]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "dd491fe18c23abd77bfc54553d233e0c1fb91bcc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 13,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63671, 3.054773],
+        "nom": "QUAI DU WAULT",
+        "adresse": "17 SQUARE DUTILLEUL",
+        "geo": [50.63671, 3.054773]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.054773, 50.63671]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a16e0b7e1d8c5b61fbc3c53285a1db8f7236b957",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 10,
+        "commune": "MARCQ EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 123,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.665348, 3.075792],
+        "nom": "RUE DE L'EGLISE",
+        "adresse": "71, RUE NATIONALE",
+        "geo": [50.665348, 3.075792]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.075792, 50.665348]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "17b3a9cf0392d52fc0ef93b3e377492268feff51",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 34,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63413, 3.041209],
+        "nom": "PLACE CATINAT",
+        "adresse": "199 RUE COLBERT",
+        "geo": [50.63413, 3.041209]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.041209, 50.63413]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2f98f2e1ee73e414cf64bae428caa96ba114be23",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 30,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64306, 3.067452],
+        "nom": "RUE DE GAND",
+        "adresse": "8 PLACE DE GAND",
+        "geo": [50.64306, 3.067452]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.067452, 50.64306]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "77318b55b366a091f86257719649cddb47e492d7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 11,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 31,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.644264, 3.062935],
+        "nom": "PONT NEUF",
+        "adresse": "38 BIS RUE DU PONT NEUF",
+        "geo": [50.644264, 3.062935]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.062935, 50.644264]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b2699e52f53d3cd51704f0edeeb71b9aa2830bf9",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 11,
+        "commune": "LOMME",
+        "type": "AVEC TPE",
+        "libelle": 121,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.644855, 3.013238],
+        "nom": "PONT SUPERIEUR",
+        "adresse": "ANGLE DE LA RUE AUGUSTE BONTE",
+        "geo": [50.644855, 3.013238]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.013238, 50.644855]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1c40a51de3159c393595f182afeeedff35e73d8b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 32,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64142, 3.067873],
+        "nom": "PLACE AUX BLEUETS",
+        "adresse": "15 RUE DE COURTRAI",
+        "geo": [50.64142, 3.067873]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.067873, 50.64142]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8222c2a2622c64dcaa64d922473b73b0ac5a73f7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "SAINT ANDRE LEZ LILLE",
+        "type": "SANS TPE",
+        "libelle": 185,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6571752, 3.0562866],
+        "nom": "SAINTE H\u00c9L\u00c8NE",
+        "adresse": "52 Rue sainte-h\u00e9l\u00e9ne",
+        "geo": [50.6571752, 3.0562866]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0562866, 50.6571752]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "deb7d40bb70ad7ba12728ffbe5e46f37a12db723",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 17,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 10,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.63589, 3.062471],
+        "nom": "RIHOUR",
+        "adresse": "ANGLE PLACE RIHOUR",
+        "geo": [50.63589, 3.062471]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.062471, 50.63589]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "04938910f0eeac26baf907ec01989426a13f40dd",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 57,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62418, 3.058902],
+        "nom": "BARTHELEMY DELESPAUL",
+        "adresse": "FACE AU 52 RUE BARTHELEMY DELESPAUL",
+        "geo": [50.62418, 3.058902]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.058902, 50.62418]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1587ec1150c1ee96690178ebd76d211df9599c02",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 8,
+        "commune": "MARCQ EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 186,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.672415, 3.0924237],
+        "nom": "MARCQ MAIRIE",
+        "adresse": "29-1 Avenue du Mar\u00e9chal de Lattre de T",
+        "geo": [50.672415, 3.0924237]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0924237, 50.672415]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "675ff6a8888591acc4fd5098af8c96601dd1562c",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 21,
+        "nbplacesdispo": 18,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 14,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63781, 3.052217],
+        "nom": "CHAMP DE MARS",
+        "adresse": "AVENUE LEON JOUHAUX",
+        "geo": [50.63781, 3.052217]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.052217, 50.63781]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1af565d49aa9e2da37c517505c8e559e3720d232",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 58,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.620857, 3.078947],
+        "nom": "PORTE DE VALENCIENNES",
+        "adresse": "BOULEVARD DE BELFORT",
+        "geo": [50.620857, 3.078947]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.078947, 50.620857]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e7434051dfb6403a5e6fefe6879de5969030f5ae",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 70,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63424, 3.073991],
+        "nom": "CITE ADMINISTRATIVE",
+        "adresse": "51 RUE DE TOURNAI",
+        "geo": [50.63424, 3.073991]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.073991, 50.63424]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "88a7a80515c7c38acbcad232ad5754c43fb0bdca",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 16,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 36,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62624, 3.039911],
+        "nom": "CORMONTAIGNE",
+        "adresse": "16 - 36 PLACE CORMONTAIGNE",
+        "geo": [50.62624, 3.039911]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.039911, 50.62624]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "23541241564ce63fad8efb09916fbd8b203e1d2d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 208,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.67544, 3.181998],
+        "nom": "DE FOURMIES",
+        "adresse": "107, BOULEVARD DE FOURMIES",
+        "geo": [50.67544, 3.181998]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.181998, 50.67544]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "631670fe7d7119ee356002403c25f3a677b1862f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 74,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.641018, 3.082493],
+        "nom": "FAUBOURG DE ROUBAIX",
+        "adresse": "104 RUE DU FAUBOURG DE ROUBAIX",
+        "geo": [50.641018, 3.082493]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.082493, 50.641018]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "691d830cf53ede39a4f296bca05caed9ac3e5656",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 65,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.621128, 3.035483],
+        "nom": "PLACE TACQ",
+        "adresse": "70 RUE DE LOOS",
+        "geo": [50.621128, 3.035483]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.035483, 50.621128]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b7331cc228ef5d4baee5671fca4fd94571963f48",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 255,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.7134, 3.165011],
+        "nom": "RUE DE ROUBAIX",
+        "adresse": "SECTEUR UNION",
+        "geo": [50.7134, 3.165011]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.165011, 50.7134]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "ce794d69154f5d81bd7845741332a522f836c743",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 99,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.654602, 3.073805],
+        "nom": "LA MADELEINE MAIRIE",
+        "adresse": "RUE DU GENERAL DE GAULLE",
+        "geo": [50.654602, 3.073805]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.073805, 50.654602]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "875f51af365ed670f6076ede0d85e01b90ee8a47",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 17,
+        "nbplacesdispo": 12,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 207,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.69138, 3.17966],
+        "nom": "EUROTELEPORT",
+        "adresse": "78-84, BOULEVARD DU G\u00c9N\u00c9RAL LECLERC",
+        "geo": [50.69138, 3.17966]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.17966, 50.69138]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c9eed130a9344fb7f7ff73e28b8b9330344fff61",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 37,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62337, 3.037553],
+        "nom": "FULTON",
+        "adresse": "14 RUE DU BAZINGHIEN",
+        "geo": [50.62337, 3.037553]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.037553, 50.62337]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8b60cc95eaeff78a519a9ea4282b3a09f2c12ccc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 6,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 102,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.642418, 3.110835],
+        "nom": "MAIRIE DE MONS",
+        "adresse": "AVENUE ROBERT SCHUMAN",
+        "geo": [50.642418, 3.110835]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.110835, 50.642418]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "730763d6bef6ab80474175c4c468b720d17bc52c",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "LOOS",
+        "type": "AVEC TPE",
+        "libelle": 175,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.603018, 3.038795],
+        "nom": "RECHERCHE",
+        "adresse": "977 rue Eug\u00e8ne Avin\u00e9e",
+        "geo": [50.603018, 3.038795]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.038795, 50.603018]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "99bb9e7ff1bf7d05d70705faa1b74b6ba27e7fb2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 16,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 64,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6318, 3.071392],
+        "nom": "MAIRIE DE LILLE",
+        "adresse": "17 RUE SAINT SAUVEUR",
+        "geo": [50.6318, 3.071392]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.071392, 50.6318]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "654242cc1ff2a158078e56a0b9c096859bcf4781",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 3,
+        "nbplacesdispo": 15,
+        "commune": "MONS EN BAROEUL",
+        "type": "SANS TPE",
+        "libelle": 104,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64584, 3.112744],
+        "nom": "MENDES FRANCE",
+        "adresse": "BD NAPOLEON 1ER",
+        "geo": [50.64584, 3.112744]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.112744, 50.64584]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "819802fcbcdad14d181d8df1b7b0a9968ed119f8",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 252,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.72263, 3.150377],
+        "nom": "RUE DES POUTRAINS",
+        "adresse": "RUE DE LILLE",
+        "geo": [50.72263, 3.150377]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.150377, 50.72263]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "9f470801d04f09c949a0ee0cacae5de295dc15dc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 14,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 68,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.630836, 3.047778],
+        "nom": "NATIONALE RUE DU PORT",
+        "adresse": "244 - 254 RUE NATIONALE",
+        "geo": [50.630836, 3.047778]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.047778, 50.630836]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fd95183c851bbe3a8986df4ba3b039c8bb8b91e0",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 8,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 247,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.734142, 3.167987],
+        "nom": "ROUGET DE L ISLE",
+        "adresse": "SECTEUR BVRD DE L'EGALIT\u00c9",
+        "geo": [50.734142, 3.167987]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.167987, 50.734142]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7253ba4c4b3d48d95085ce12faaee71c8de3018b",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 1,
+        "nbplacesdispo": 19,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 145,
+        "datemiseajour": "2019-09-09T07:25:06+02:00",
+        "localisation": [50.61992, 3.14528],
+        "nom": "RESIDENCE",
+        "adresse": "PLACE N. DAME DE LA NATIVIT\u00c9",
+        "geo": [50.61992, 3.14528]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.14528, 50.61992]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "ce992a2a13f20786f494dc2e7de9be5e0825d790",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 8,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 134,
+        "datemiseajour": "2019-09-09T07:25:06+02:00",
+        "localisation": [50.6221, 3.131706],
+        "nom": "RUE DES VICTOIRES",
+        "adresse": "76, BOULEVARD VAN GOGH",
+        "geo": [50.6221, 3.131706]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.131706, 50.6221]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7c8bbefa74ff5fab3373e84b6f53c27d954694d7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 205,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.69094, 3.188538],
+        "nom": "CONDITION PUBLIQUE",
+        "adresse": "45, RUE LOUIS DUPIRE",
+        "geo": [50.69094, 3.188538]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.188538, 50.69094]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6772bdd176a4b89a572450e634dc3eb2b0d4cf59",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 13,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 202,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.677914, 3.162353],
+        "nom": "PARC BARBIEUX",
+        "adresse": "AVENUE JEAN JAURES",
+        "geo": [50.677914, 3.162353]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.162353, 50.677914]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2ba485e2d91ed18c30146df43023a3bd915af7dd",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 6,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 114,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62651, 3.079211],
+        "nom": "BOIS HABITE",
+        "adresse": "BOULEVARD DU PR\u00c9SIDENT HOOVER",
+        "geo": [50.62651, 3.079211]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.079211, 50.62651]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6a215664b45dc015f78dd914f456f70bb3ec5e6e",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 243,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.718204, 3.15749],
+        "nom": "VICTOIRE",
+        "adresse": "FACE AU 1 PLACE DE LA VICTOIRE",
+        "geo": [50.718204, 3.15749]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.15749, 50.718204]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "d3d6406b774b442e8bd3fcd788f8a3e7fcd23fda",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 9,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 203,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.68079, 3.167454],
+        "nom": "VICTOR PROVO",
+        "adresse": "BOULEVARD DU G\u00c9N\u00c9RAL DE GAULLE",
+        "geo": [50.68079, 3.167454]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.167454, 50.68079]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a9664d51426b988539db0aebb52bc28e6ef3bd1e",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 116,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64891, 3.078336],
+        "nom": "BOTANIQUE",
+        "adresse": "185, AVENUE DE LA R\u00c9PUBLIQUE",
+        "geo": [50.64891, 3.078336]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.078336, 50.64891]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "39cdd737adc68c0c058c751b18bd7a183e6994e2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 260,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.72101, 3.157978],
+        "nom": "PLACE ROUSSEL",
+        "adresse": "45, PLACE CHARLES ET ALBERT ROUSSEL",
+        "geo": [50.72101, 3.157978]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.157978, 50.72101]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "3b2013307e86a84459a6f4af389b50cdc24e32bc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 7,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 204,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.684757, 3.171974],
+        "nom": "JEAN MOULIN",
+        "adresse": "FACE AU 49 BIS BD DU G\u00c9N\u00c9RAL DE GAULLE",
+        "geo": [50.684757, 3.171974]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.171974, 50.684757]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fc3d1e8685e32ecb738349d7f877a6714e4418d8",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 17,
+        "nbplacesdispo": 3,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 173,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.613663, 3.0367396],
+        "nom": "CHU - CENTRE OSCART LAMBRET",
+        "adresse": "Avenue Oscar Lambret",
+        "geo": [50.613663, 3.0367396]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0367396, 50.613663]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "9e6a869133647a8607f15021c18c5738065fdef7",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 40,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 28,
+        "datemiseajour": "2020-01-10T12:45:06+01:00",
+        "localisation": [50.634686, 3.048344],
+        "nom": "PALAIS RAMEAU",
+        "adresse": "17 RUE SOLFERINO",
+        "geo": [50.634686, 3.048344]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.048344, 50.634686]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a788c17800ad51d4af1e7f5645ddc8924392913f",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 1,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 128,
+        "datemiseajour": "2019-10-10T08:55:06+02:00",
+        "localisation": [50.633842, 3.127335],
+        "nom": "RUE LOUISE MICHEL",
+        "adresse": "93 RUE LOUISE MICHEL",
+        "geo": [50.633842, 3.127335]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.127335, 50.633842]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "25902c22e64da650ff5a18c50a6129db8a8be496",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 24,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 218,
+        "datemiseajour": "2019-07-10T17:47:05+02:00",
+        "localisation": [50.67392, 3.18514],
+        "nom": "PLACE SPRIET",
+        "adresse": "PLACE CHARLES SPRIET",
+        "geo": [50.67392, 3.18514]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.18514, 50.67392]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "abd202002491bb30a4da32da56fba3df81c6627a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 17,
+        "nbplacesdispo": 13,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 22,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64124, 3.064987],
+        "nom": "LOUISE DE BETTIGNIES",
+        "adresse": "PLACE LOUISE DE BETTIGNIES",
+        "geo": [50.64124, 3.064987]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.064987, 50.64124]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "ad9bd7761553b70c54bbc7afbab72f50081c06aa",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "LAMBERSART",
+        "type": "AVEC TPE",
+        "libelle": 118,
+        "datemiseajour": "2019-07-10T17:41:05+02:00",
+        "localisation": [50.641834, 3.022364],
+        "nom": "COLLEGE LAVOISIER",
+        "adresse": "56, RUE PAUL VAILLANT",
+        "geo": [50.641834, 3.022364]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.022364, 50.641834]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "3fe43f2d55ac2b2fccfc10b99bd39d8119760cfe",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 8,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 244,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.727448, 3.16646],
+        "nom": "F ROOSEVELT",
+        "adresse": "2-14 BOULEVARD DE L'\u00c9GALIT\u00c9",
+        "geo": [50.727448, 3.16646]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.16646, 50.727448]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "dafc950d65ec51317aa65aaba7a12fb5a0cfc396",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 16,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 47,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62824, 3.069233],
+        "nom": "BOULEVARD LOUIS XIV",
+        "adresse": "1 BOULEVARD JEAN BAPTISTE LEBAS",
+        "geo": [50.62824, 3.069233]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.069233, 50.62824]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a32ac0fe1e550af3c3c7024dd6313560e25da35f",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 7,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 228,
+        "datemiseajour": "2019-07-19T09:03:05+02:00",
+        "localisation": [50.69535, 3.180779],
+        "nom": "PELLART",
+        "adresse": "15, RUE PELLART",
+        "geo": [50.69535, 3.180779]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.180779, 50.69535]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "942067b3925127a3becd18769f54073466520819",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 106,
+        "datemiseajour": "2019-07-10T17:40:06+02:00",
+        "localisation": [50.638123, 3.112704],
+        "nom": "CONCORDE",
+        "adresse": "27 BOULEVARD ALPHONSE GAYET",
+        "geo": [50.638123, 3.112704]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.112704, 50.638123]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "aead83b9344721c5c99e70a889b61c8d7550545d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 14,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 50,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62224, 3.067004],
+        "nom": "RUE D'ARRAS",
+        "adresse": "4 RUE WAZEMMES",
+        "geo": [50.62224, 3.067004]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.067004, 50.62224]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5b0977f9bb4c1dac9d6cec71af15773f30ec6f37",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 105,
+        "datemiseajour": "2019-07-10T17:39:06+02:00",
+        "localisation": [50.638126, 3.10231],
+        "nom": "VERDUN",
+        "adresse": "69 AVENUE DE VERDUN",
+        "geo": [50.638126, 3.10231]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.10231, 50.638126]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c81ea20d2ee3aa53d46f7bc45d731fd0de8d5d72",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 21,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 1,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.641926, 3.075992],
+        "nom": "METROPOLE EUROPEENNE DE LILLE",
+        "adresse": "MEL RUE DU BALLON",
+        "geo": [50.641926, 3.075992]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.075992, 50.641926]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "267aecef5841acf354f7b87ddcb4ee03c7638e57",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 14,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 75,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.637337, 3.084894],
+        "nom": "EUGENE JACQUET",
+        "adresse": "59 RUE EUGENE JACQUET",
+        "geo": [50.637337, 3.084894]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.084894, 50.637337]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2d211ff0d2277ecaf5399a80e66917ec0197ed29",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 21,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64193, 3.061774],
+        "nom": "PLACE DU CONCERT",
+        "adresse": "RUE ALPHONSE COLAS",
+        "geo": [50.64193, 3.061774]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.061774, 50.64193]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7de15452082546e19bfc8b7347bfb0cb16a70ec7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 11,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 46,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62629, 3.061198],
+        "nom": "ARTOIS",
+        "adresse": "12 RUE D'ARTOIS",
+        "geo": [50.62629, 3.061198]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.061198, 50.62629]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f626a2f47b4e69345b4b098c5428e64ac0a76eeb",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 3,
+        "nbplacesdispo": 15,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 77,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.622963, 3.091363],
+        "nom": "MONT DE TERRE",
+        "adresse": "7 RUE MATTEOTI",
+        "geo": [50.622963, 3.091363]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.091363, 50.622963]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "3a2898bf67bc27a220580061867d977f9b17c708",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 23,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.639107, 3.065548],
+        "nom": "RUE DES ARTS",
+        "adresse": "41 RUE DES ARTS",
+        "geo": [50.639107, 3.065548]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.065548, 50.639107]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c22dd5cb611f22ba66af305fdc67bd886a98e261",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 14,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 49,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61957, 3.068387],
+        "nom": "PLACE DELIOT",
+        "adresse": "1 PLACE DELIOT",
+        "geo": [50.61957, 3.068387]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.068387, 50.61957]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2aff4980cf4ff599dd1ac401bac51a68049d10ac",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 20,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 88,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.635082, 3.058015],
+        "nom": "RUE NATIONALE",
+        "adresse": "91 RUE NATIONALE",
+        "geo": [50.635082, 3.058015]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.058015, 50.635082]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a97e02aea6ed3d75b597722268f5fe29664d5a66",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 15,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 48,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61831, 3.0722],
+        "nom": "PORTE DE DOUAI",
+        "adresse": "PLACE FERNIG",
+        "geo": [50.61831, 3.0722]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0722, 50.61831]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "69945a654d057d941d16b96741e80400d0889939",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "SANS TPE",
+        "libelle": 78,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.615536, 3.048518],
+        "nom": "HOTEL DE POLICE",
+        "adresse": "RUE DU FAUBOURG DES POSTES",
+        "geo": [50.615536, 3.048518]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.048518, 50.615536]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6d7b684cd6758536e55a4774d85c770b4b71ed80",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 6,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "SANS TPE",
+        "libelle": 135,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63745, 3.123145],
+        "nom": "FLERS MASQUELIER",
+        "adresse": "97, RUE JULES GUESDE",
+        "geo": [50.63745, 3.123145]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.123145, 50.63745]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "eab5f05c67fb7a42aaeea1acfab773c249227b32",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 8,
+        "commune": "LILLE HELLEMMES",
+        "type": "SANS TPE",
+        "libelle": 85,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.625183, 3.100729],
+        "nom": "CHANZY",
+        "adresse": "58 RUE CHANZY",
+        "geo": [50.625183, 3.100729]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.100729, 50.625183]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "d3787d31f69c5339cb5b6379ab686389db0e0f96",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 79,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61307, 3.047221],
+        "nom": "CIMETIERE DU SUD",
+        "adresse": "65 RUE DU FAUBOURG DES POSTES",
+        "geo": [50.61307, 3.047221]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.047221, 50.61307]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "67814f670727b3eec23b202cf03efbfe8054fa20",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 16,
+        "nbplacesdispo": 14,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 130,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.624516, 3.127894],
+        "nom": "PONT DE BOIS",
+        "adresse": "RUE BAUDOUIN IX - M\u00c9TRO PONT DE BOIS",
+        "geo": [50.624516, 3.127894]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.127894, 50.624516]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b5f4f5b5cba129523023dc7f6d8b28b53ca837f7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 20,
+        "nbplacesdispo": 4,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 141,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61682, 3.140808],
+        "nom": "METRO TRIOLO",
+        "adresse": "2 RUE TRAVERSI\u00c8RE ANGLE ALL\u00c9E TURGOT",
+        "geo": [50.61682, 3.140808]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.140808, 50.61682]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "689164de54936dc2434b4ba4ee29241fa194da7d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 3,
+        "nbplacesdispo": 7,
+        "commune": "LILLE HELLEMMES",
+        "type": "SANS TPE",
+        "libelle": 81,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63529, 3.115088],
+        "nom": "GUINGUETTE",
+        "adresse": "RUE JACQUARD",
+        "geo": [50.63529, 3.115088]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.115088, 50.63529]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8f7c0de050a715b628b2d84322fbebdd5781192a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 14,
+        "nbplacesdispo": 6,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 148,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.612194, 3.074952],
+        "nom": "P.I. DE DOUAI",
+        "adresse": "RUE DU FAUBOURG DE DOUAI SOUS LE PONT",
+        "geo": [50.612194, 3.074952]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.074952, 50.612194]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a7609bd6facf09bb1f74d6e0448d25c585baef55",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 1,
+        "nbplacesdispo": 38,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 159,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.637726, 3.071892],
+        "nom": "EURALILLE",
+        "adresse": "66-188 ALL\ufffdE DE LI\ufffdGE",
+        "geo": [50.637726, 3.071892]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.071892, 50.637726]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "51b30f64dd453782de0303b45b2ba32e054b4c87",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 17,
+        "nbplacesdispo": 15,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 82,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63999, 3.075204],
+        "nom": "GARE LILLE EUROPE",
+        "adresse": "299 BOULEVARD DE LEEDS",
+        "geo": [50.63999, 3.075204]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.075204, 50.63999]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c33a096e15c13aea4e75e9fd22d81014fc28f5cf",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 232,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.699734, 3.174347],
+        "nom": "FOSSE AUX CHENES",
+        "adresse": "13, PLACE DE LA FOSSE AUX CH\u00caNES",
+        "geo": [50.699734, 3.174347]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.174347, 50.699734]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "deb7936607ee2624fcd6910f42a52135fd8f4605",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 9,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 216,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.681797, 3.194122],
+        "nom": "FRATERNITE",
+        "adresse": "PLACE DE LA FRATERNIT\u00c9",
+        "geo": [50.681797, 3.194122]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.194122, 50.681797]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "000c57bd6b02cc2149d73646b7aaefe19b708c03",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 16,
+        "commune": "LILLE HELLEMMES",
+        "type": "AVEC TPE",
+        "libelle": 84,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.627243, 3.109266],
+        "nom": "MAIRIE D'HELLEMMES",
+        "adresse": "165 RUE ROGER SALENGRO",
+        "geo": [50.627243, 3.109266]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.109266, 50.627243]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "81ac577c2588434580dfd709229834363636ba74",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 8,
+        "commune": "LOOS",
+        "type": "SANS TPE",
+        "libelle": 177,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.616763, 3.023032],
+        "nom": "RUE DE LONDRES",
+        "adresse": "2 Rue du Mar\u00e9chal Foch",
+        "geo": [50.616763, 3.023032]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.023032, 50.616763]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8d3780e9b81fee822f483cf1477b79394e9c85e1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 5,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 230,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.70076, 3.18407],
+        "nom": "DE LA VIGNE",
+        "adresse": "181, BOULEVARD DE STRASBOURG",
+        "geo": [50.70076, 3.18407]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.18407, 50.70076]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a9b8fef8388361fbe16eb85f10f8af0e6a07f2a5",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 6,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 146,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63268, 3.052483],
+        "nom": "SOLFERINO NATIONALE",
+        "adresse": "FACE 171 RUE NATIONALE",
+        "geo": [50.63268, 3.052483]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.052483, 50.63268]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e2d9f92d75985f49cf223ca7eeccbfb2c96f645b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 61,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.629246, 3.075218],
+        "nom": "LILLE GRAND PALAIS",
+        "adresse": "30 BOULEVARD DU MARECHAL VAILLANT",
+        "geo": [50.629246, 3.075218]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.075218, 50.629246]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "99527c8e45a852024f6b2b590e196e8a7ebf7ff4",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 240,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.71922, 3.163396],
+        "nom": "POSTE",
+        "adresse": "22, RUE L\u00c9ON SALEMBIER",
+        "geo": [50.71922, 3.163396]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.163396, 50.71922]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "39d98ae3c1baadbb103b016ebadd414a3e7427f1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 3,
+        "nbplacesdispo": 15,
+        "commune": "LILLE HELLEMMES",
+        "type": "AVEC TPE",
+        "libelle": 95,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63041, 3.097037],
+        "nom": "MARBRERIE",
+        "adresse": "280 BIS RUE PIERRE LEGRAND",
+        "geo": [50.63041, 3.097037]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.097037, 50.63041]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1177bf5c146c8485729a01ddc55a6c9c7a9ce8a8",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 18,
+        "commune": "SAINT ANDRE LEZ LILLE",
+        "type": "AVEC TPE",
+        "libelle": 156,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.661602, 3.050322],
+        "nom": "ST ANDRE MAIRIE",
+        "adresse": "FACE AU 92 RUE DU GENERAL LECLERC",
+        "geo": [50.661602, 3.050322]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.050322, 50.661602]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fb973a0632289f9f7be5c9ab061b6fcb0a15715c",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 9,
+        "commune": "CROIX",
+        "type": "AVEC TPE",
+        "libelle": 265,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.6742992, 3.1471793],
+        "nom": "CROIX CENTRE",
+        "adresse": "2-8 Impasse de la Fonderie",
+        "geo": [50.6742992, 3.1471793]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.1471793, 50.6742992]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b6d89a5b55d9faeb1d8c379d7356b078bec912e1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 14,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 162,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.628544, 3.065015],
+        "nom": "ANGELLIER",
+        "adresse": "3 RUE AUGUSTE ANGELLIER",
+        "geo": [50.628544, 3.065015]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.065015, 50.628544]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5dc2d8a0a92bab18a6cb6f969bcba1c66aadf1ff",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 8,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 253,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.725006, 3.150677],
+        "nom": "AVENUE MILLET",
+        "adresse": "SECTEUR RUE CONDORCET",
+        "geo": [50.725006, 3.150677]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.150677, 50.725006]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a1edc28929e6b9621de5a955ff0b26a21d167039",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 143,
+        "datemiseajour": "2019-08-30T06:05:05+02:00",
+        "localisation": [50.61776, 3.146026],
+        "nom": "ROND POINT DE TOURNAI",
+        "adresse": "55, RUE DES FUSILL\u00c9S",
+        "geo": [50.61776, 3.146026]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.146026, 50.61776]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "596486810f8af6f07b38b6ff236f58b93fce1218",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 210,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.676884, 3.187817],
+        "nom": "LINNE",
+        "adresse": "192, AVENUE DE LINN\u00c9",
+        "geo": [50.676884, 3.187817]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.187817, 50.676884]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "da63c8df52d6533024dfc319ae339f8708eb6256",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 6,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 40,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62614, 3.051729],
+        "nom": "METRO GAMBETTA",
+        "adresse": "41 RUE DU MARCHE",
+        "geo": [50.62614, 3.051729]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.051729, 50.62614]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "08feaa8d3fc91960503876bba22cfa8e5524ae30",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 16,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 6,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.630943, 3.060299],
+        "nom": "REPUBLIQUE BEAUX ARTS",
+        "adresse": "2 RUE INKERMAN",
+        "geo": [50.630943, 3.060299]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.060299, 50.630943]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "d5c1c6c9492c234e99eb016bc1ac69c0b7b7aa0f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 153,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.65547, 3.064989],
+        "nom": "POMPIDOU",
+        "adresse": "FACE AU 102 ALLEE DU RIEZ",
+        "geo": [50.65547, 3.064989]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.064989, 50.65547]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "472bccd287b300a87c414698bce77d2f5b7a939c",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 19,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 62,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.632965, 3.076437],
+        "nom": "ZENITH",
+        "adresse": "BOULEVARD EMILE DUBUISSON",
+        "geo": [50.632965, 3.076437]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.076437, 50.632965]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "717c72150e2715465078e36b61cdd7ce376e6904",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 25,
+        "nbplacesdispo": 13,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 53,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61856, 3.049251],
+        "nom": "PORTE DES POSTES",
+        "adresse": "1 PLACE BARTHELEMY DOREZ",
+        "geo": [50.61856, 3.049251]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.049251, 50.61856]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a0599e711b657664e5fe5c2b7c8bda0254842a2f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 2,
+        "nbplacesdispo": 14,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 217,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.67869, 3.172558],
+        "nom": "HOPITAL VICTOR PROVO",
+        "adresse": "BOULEVARD DE LYON",
+        "geo": [50.67869, 3.172558]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.172558, 50.67869]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7d59e538ad770fce77d8dd767daf4b1f4fcaeab4",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 12,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 100,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.651638, 3.081625],
+        "nom": "SAINT MAUR",
+        "adresse": "260 AVENUE DE LA REPUBLIQUE",
+        "geo": [50.651638, 3.081625]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.081625, 50.651638]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "4c82424545ef1eb11a3aad1889c4cda98ef587e2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 9,
+        "commune": "LILLE",
+        "type": "SANS TPE",
+        "libelle": 147,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.614052, 3.062195],
+        "nom": "FAUBOURG D'ARRAS",
+        "adresse": "2 RUE MARCEL H\u00c9NAUX",
+        "geo": [50.614052, 3.062195]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.062195, 50.614052]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a6eef904573ad3206edb4684ad4556fffce7aeb2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 18,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 221,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.69184, 3.173925],
+        "nom": "ROUBAIX MAIRIE",
+        "adresse": "FACE AU 1, CONTOUR  SAINT MARTIN",
+        "geo": [50.69184, 3.173925]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.173925, 50.69184]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c02a26ee7273464c8be9fa938edb9c93b67e23a6",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "SANS TPE",
+        "libelle": 113,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.651337, 3.08945],
+        "nom": "AVENUE DE MORMAL",
+        "adresse": "16, RUE DU BUISSON",
+        "geo": [50.651337, 3.08945]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.08945, 50.651337]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "659466c6cda7509acd13129928f8cb470a962804",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 249,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.728798, 3.154051],
+        "nom": "RUE DE MENIN",
+        "adresse": "FACE AU 40 RUE JOURDAN",
+        "geo": [50.728798, 3.154051]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.154051, 50.728798]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "4ee65b8a7d3083799b5079da6797deb60da157f5",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 241,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.722343, 3.170847],
+        "nom": "LE CORBUSIER",
+        "adresse": "RUE DES PIATS",
+        "geo": [50.722343, 3.170847]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.170847, 50.722343]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a9f49c2bcaedb20ba7f8e8a7396843646e0b8b60",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 11,
+        "commune": "LOMME",
+        "type": "SANS TPE",
+        "libelle": 120,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.639366, 3.012452],
+        "nom": "LOMME MAIRIE",
+        "adresse": "H\u00d4TEL DE VILLE",
+        "geo": [50.639366, 3.012452]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.012452, 50.639366]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "136da7988d7af63a5ddd83200ad5691f8b0c1a7f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 38,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62429, 3.045321],
+        "nom": "PLACE CASQUETTE",
+        "adresse": "1 RUE D'HAUBOURDIN",
+        "geo": [50.62429, 3.045321]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.045321, 50.62429]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5bc1c5091428bb56801455343b0cd58fca8d4179",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 54,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62338, 3.051565],
+        "nom": "METRO WAZEMMES",
+        "adresse": "93 RUE RACINE",
+        "geo": [50.62338, 3.051565]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.051565, 50.62338]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "73ada252237dbf0ba33e625bc7f24f74b6e54bad",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 251,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.72551, 3.156554],
+        "nom": "COLBERT",
+        "adresse": "RUE DE GAND (FACE AU LYC\u00c9E)",
+        "geo": [50.72551, 3.156554]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.156554, 50.72551]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "95abc0edc9a428a40fa0e2c50f2cdc79b3436211",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 8,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 39,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.627674, 3.050173],
+        "nom": "MARCHE DE WAZEMMES",
+        "adresse": "298 RUE LEON GAMBETTA",
+        "geo": [50.627674, 3.050173]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.050173, 50.627674]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "82bfe9a537b6f67b814b617d7949b409081facda",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 22,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 11,
+        "datemiseajour": "2020-04-11T16:15:04+02:00",
+        "localisation": [50.63734, 3.060977],
+        "nom": "NOUVEAU SIECLE",
+        "adresse": "10 RUE DE PAS",
+        "geo": [50.63734, 3.060977]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.060977, 50.63734]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "7c594dfe60b91a2a1c903aa87abbbf64a2c8b8d4",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "WATTRELOS",
+        "type": "AVEC TPE",
+        "libelle": 264,
+        "datemiseajour": "2019-07-10T17:48:05+02:00",
+        "localisation": [50.697895, 3.206297],
+        "nom": "REPUBLIQUE",
+        "adresse": "203 RUE CARNOT",
+        "geo": [50.697895, 3.206297]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.206297, 50.697895]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6d540b30f23f2b2d9d30729218991d2f432db89b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 41,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.656487, 3.088004],
+        "nom": "BUISSON",
+        "adresse": "681 AVENUE DE LA REPUBLIQUE",
+        "geo": [50.656487, 3.088004]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.088004, 50.656487]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "dec5d5d647cbf6109edd89007f17c94748aab27d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 165,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.632367, 3.05816],
+        "nom": "JEAN SANS PEUR",
+        "adresse": "68 rue Jean Sans Peur",
+        "geo": [50.632367, 3.05816]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.05816, 50.632367]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "59d50dcff559d65ced7e7013245e5c615b49010b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 258,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.710735, 3.159881],
+        "nom": "CARLIERS",
+        "adresse": "135, CHAUSS\u00c9E GALIL\u00c9E",
+        "geo": [50.710735, 3.159881]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.159881, 50.710735]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "950b51f942c94508d64156d240b34425f32536c8",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 11,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 206,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.688015, 3.174815],
+        "nom": "ALFRED MONGY",
+        "adresse": "15, BOULEVARD DU G\u00c9N\u00c9RAL DE GAULLE",
+        "geo": [50.688015, 3.174815]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.174815, 50.688015]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "00143ff4dd038d23160a1dd5d132490c10e587eb",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 19,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 63,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.629738, 3.078224],
+        "nom": "HOTEL DE REGION",
+        "adresse": "BOULEVARD DU PRESIDENT HOOVER",
+        "geo": [50.629738, 3.078224]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.078224, 50.629738]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e6af89d50cd7691cdb1bf337cff385797ab6d60d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 212,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.682053, 3.182205],
+        "nom": "DANIELLE LESAFFRE",
+        "adresse": "42, RUE DUPUY DE LOM\u00c9",
+        "geo": [50.682053, 3.182205]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.182205, 50.682053]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "be15bea4d2bb1419c0d8d7a9e0beca4279fd72fc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 5,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 256,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.73696, 3.171169],
+        "nom": "PONT DE NEUVILLE",
+        "adresse": "301, RUE DU PONT DE NEUVILLE",
+        "geo": [50.73696, 3.171169]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.171169, 50.73696]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "151f4f6bc405b8007bac417ce54b0aeba07f720f",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 109,
+        "datemiseajour": "2019-07-10T17:40:06+02:00",
+        "localisation": [50.623466, 3.030667],
+        "nom": "SQUARE DU PORTUGAL",
+        "adresse": "FACE AU 204 RUE DE LA BASSEE",
+        "geo": [50.623466, 3.030667]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.030667, 50.623466]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "fb858171f5cd3eeb29944e6fcd4bc385ce5c7a92",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 7,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 224,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.691406, 3.162704],
+        "nom": "CENTRE NAUTIQUE",
+        "adresse": "26, RUE DE L'EPEULE",
+        "geo": [50.691406, 3.162704]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.162704, 50.691406]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1563ce813e69b524778fe3be2cedcab8dc4336db",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "SANS TPE",
+        "libelle": 69,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61893, 3.032539],
+        "nom": "CHASSEURS DE DRIANT",
+        "adresse": "11 AVENUE VERHAEREN",
+        "geo": [50.61893, 3.032539]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.032539, 50.61893]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "64c1d0bb3bd15d9864ba6c1a25a2fb935e1c5547",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LOOS",
+        "type": "AVEC TPE",
+        "libelle": 178,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.615246, 3.018435],
+        "nom": "LA FILEUSE",
+        "adresse": "81 RUE DU MAR\ufffdCHAL FOCH",
+        "geo": [50.615246, 3.018435]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.018435, 50.615246]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "aa927271e434116e2c1e5f2b5715b1cd29311b2c",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 4,
+        "nbplacesdispo": 12,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 226,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.68645, 3.170006],
+        "nom": "CHARLES DE GAULLE",
+        "adresse": "72, RUE DE LILLE",
+        "geo": [50.68645, 3.170006]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.170006, 50.68645]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c59b622dc4e59ebcc3556aa101f9510055d76bee",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 3,
+        "nbplacesdispo": 21,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 73,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.642315, 3.087979],
+        "nom": "ST MAURICE PELLEVOISIN",
+        "adresse": "211 RUE DU FAUBOURG DE ROUBAIX",
+        "geo": [50.642315, 3.087979]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.087979, 50.642315]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "abd16e8632a06c3440181987811eb1bd553884e2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 5,
+        "commune": "LAMBERSAT",
+        "type": "AVEC TPE",
+        "libelle": 180,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.652107, 3.029324],
+        "nom": "SQUARE JEAN MONNET",
+        "adresse": "19 All\u00e9e du Dr Havet",
+        "geo": [50.652107, 3.029324]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.029324, 50.652107]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6360e8085dd53824879678e74b8b08ad607e85b9",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 261,
+        "datemiseajour": "2020-04-11T16:15:06+02:00",
+        "localisation": [50.732277, 3.157656],
+        "nom": "PHALEMPINS",
+        "adresse": "PHALEMPINS",
+        "geo": [50.732277, 3.157656]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.157656, 50.732277]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f0fa6058ad11ed23fb7d9898c546d1d376cda19a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 10,
+        "commune": "LA MADELEINE",
+        "type": "SANS TPE",
+        "libelle": 97,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.65937, 3.074057],
+        "nom": "LA MADELEINE GARE",
+        "adresse": "250 RUE GENERAL DE GAULLE",
+        "geo": [50.65937, 3.074057]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.074057, 50.65937]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f01a62636f804e79af2051dc523ef4766fa169d1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 184,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.651107, 3.0678],
+        "nom": "RUE DU PARC",
+        "adresse": "18 bis rue du parc",
+        "geo": [50.651107, 3.0678]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0678, 50.651107]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "1e5dd1a24ada92ff840ac18043c8adf48f3af693",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 92,
+        "datemiseajour": "2019-07-10T17:39:06+02:00",
+        "localisation": [50.63665, 3.091106],
+        "nom": "RUE DE LA GAITE",
+        "adresse": "9 RUE MARCEAU",
+        "geo": [50.63665, 3.091106]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.091106, 50.63665]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e40272412f3491d28fbb34a190623fecff8caa97",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 13,
+        "nbplacesdispo": 11,
+        "commune": "MONS EN BAROEUL",
+        "type": "AVEC TPE",
+        "libelle": 101,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6423, 3.099291],
+        "nom": "MONS SARTS",
+        "adresse": "AVENUE DES ACACIAS",
+        "geo": [50.6423, 3.099291]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.099291, 50.6423]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2d494663fe92f1879d9282e94c0d8cdad0616662",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 11,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 250,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.72389, 3.160344],
+        "nom": "TOURCOING MAIRIE",
+        "adresse": "6 BIS, RUE NATIONALE",
+        "geo": [50.72389, 3.160344]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.160344, 50.72389]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e0ea482fe364ca46a1a975cefd6f9a9217acd045",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 1,
+        "commune": "WATTRELOS",
+        "type": "AVEC TPE",
+        "libelle": 262,
+        "datemiseajour": "2019-07-10T17:48:05+02:00",
+        "localisation": [50.701187, 3.215011],
+        "nom": "WATTRELOS PLACE",
+        "adresse": "2-10, D660",
+        "geo": [50.701187, 3.215011]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.215011, 50.701187]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2df0c4a4a1bc2234dc00b557560b46c57c2dc0b5",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 10,
+        "commune": "MONS EN BAROEUL",
+        "type": "SANS TPE",
+        "libelle": 103,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.639828, 3.106677],
+        "nom": "LACORDAIRE",
+        "adresse": "44 RUE LACORDAIRE",
+        "geo": [50.639828, 3.106677]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.106677, 50.639828]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "988367f71ebdf58b5ec5e78b2ff172b3e6c09484",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 16,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 67,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.621952, 3.04534],
+        "nom": "MONTEBELLO",
+        "adresse": "122 BOULEVARD MONTEBELLO",
+        "geo": [50.621952, 3.04534]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.04534, 50.621952]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a7d96746205e7ab71316b1504e6a895b60c1ef7f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 15,
+        "nbplacesdispo": 9,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 15,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6449, 3.050645],
+        "nom": "ESPLANADE",
+        "adresse": "PONT DU PETIT PARADIS",
+        "geo": [50.6449, 3.050645]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.050645, 50.6449]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2a365c9b822f2c9da0dfb979af22124829f2d3ba",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 7,
+        "commune": "MONS EN BAROEUL",
+        "type": "SANS TPE",
+        "libelle": 107,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.636105, 3.106438],
+        "nom": "LAVOISIER",
+        "adresse": "5 RUE LAURENT DE LAVOISIER",
+        "geo": [50.636105, 3.106438]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.106438, 50.636105]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "f1d6a8c72a33b55c05e2a52d0a8c0cbfcac7cd6d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 12,
+        "nbplacesdispo": 20,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 51,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62482, 3.068689],
+        "nom": "JB LEBAS",
+        "adresse": "2 RUE CAMBRAI",
+        "geo": [50.62482, 3.068689]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.068689, 50.62482]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2627ac168be199728ab9ff9f6d9098d4ccd18182",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 8,
+        "commune": "RONCHIN",
+        "type": "SANS TPE",
+        "libelle": 151,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.60642, 3.072209],
+        "nom": "CH. DES MARGUERITOIS",
+        "adresse": "FACE AU 152 CHEMIN MARGUERITOIS",
+        "geo": [50.60642, 3.072209]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.072209, 50.60642]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "03d20133740320674f5c87b05a578dfae047c874",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 13,
+        "commune": "LAMBERSART",
+        "type": "AVEC TPE",
+        "libelle": 117,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.641617, 3.031375],
+        "nom": "HIPPODROME",
+        "adresse": "9, AVENUE HENRI GRUSON",
+        "geo": [50.641617, 3.031375]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.031375, 50.641617]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "2bfc2b1ceb6b8acd4faf42b59bf8d638d5f2ed2b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 56,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.620304, 3.055471],
+        "nom": "BD VICTOR HUGO",
+        "adresse": "214 BOULEVARD VICTOR HUGO",
+        "geo": [50.620304, 3.055471]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.055471, 50.620304]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e431e6647b60967a362a9b0cf6eab2c09d460d0c",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 154,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.65532, 3.060615],
+        "nom": "CHAUFFERIE",
+        "adresse": "FACE AU 125 RUE ROGER SALENGRO",
+        "geo": [50.65532, 3.060615]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.060615, 50.65532]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "755f9a084e35a5a71a5c841cdeb1472ea1acaae3",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 1,
+        "commune": "WATTRELOS",
+        "type": "AVEC TPE",
+        "libelle": 263,
+        "datemiseajour": "2019-07-16T13:10:07+02:00",
+        "localisation": [50.69626, 3.209156],
+        "nom": "STALINGRAD",
+        "adresse": "38-4 RUE DE STALINGRAD",
+        "geo": [50.69626, 3.209156]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.209156, 50.69626]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "788fb404ffb8978f726e8057c1b874e2cb37b941",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 5,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 170,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62184, 3.060494],
+        "nom": "GANTOIS",
+        "adresse": "104-122 Boulevard Victor Hugo",
+        "geo": [50.62184, 3.060494]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.060494, 50.62184]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "0bc89911bfaa0077dc96cd0c1d15917fd90de6ff",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 6,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 236,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.694714, 3.192643],
+        "nom": "CHAPTAL",
+        "adresse": "3, RUE D'AVELGHEM",
+        "geo": [50.694714, 3.192643]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.192643, 50.694714]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "03bd9f7320deca7e70c171d1a1a14224c446698b",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 23,
+        "nbplacesdispo": 17,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 24,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63698, 3.071009],
+        "nom": "FLANDRES EURALILLE",
+        "adresse": "PLACE DES BUISSES",
+        "geo": [50.63698, 3.071009]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.071009, 50.63698]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "847567cf3207562d18eab321819e55172ded7940",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 14,
+        "nbplacesdispo": 14,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 174,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.607664, 3.038892],
+        "nom": "CHU - EURASANT\u00c9",
+        "adresse": "Boulevard Eug\u00e8ne Duthoit",
+        "geo": [50.607664, 3.038892]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.038892, 50.607664]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "d1effd5dc2e4855742b6e9deebdfacb987854fbf",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 7,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 16,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.646225, 3.053499],
+        "nom": "MAGASIN",
+        "adresse": "3 RUE SAINT ANDRE",
+        "geo": [50.646225, 3.053499]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.053499, 50.646225]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e76d2d5f6c4c67630c24bccf7e7503200839e3bb",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 22,
+        "commune": "CROIX",
+        "type": "SANS TPE",
+        "libelle": 201,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.673943, 3.163443],
+        "nom": "EDHEC",
+        "adresse": "272, RUE VERTE",
+        "geo": [50.673943, 3.163443]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.163443, 50.673943]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "0a81b540aa22bf951696b1195c96fff1f3b06395",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 10,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 60,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.621185, 3.072363],
+        "nom": "TREVISE",
+        "adresse": "114 RUE DE DOUAI",
+        "geo": [50.621185, 3.072363]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.072363, 50.621185]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "903f6b502400662cd185af08a28ff6deaeb01bd7",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 225,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.683987, 3.16327],
+        "nom": "EPEULE MONTESQUIEU",
+        "adresse": "RUE INKERMAN",
+        "geo": [50.683987, 3.16327]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.16327, 50.683987]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "12de53e63a0ae7550b07af704b8568bd9a18de34",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 16,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 94,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63579, 3.033977],
+        "nom": "MARX DORMOY",
+        "adresse": "RUE DE BORDEAUX",
+        "geo": [50.63579, 3.033977]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.033977, 50.63579]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "30dbe8287bbc3774c77c455b9fd901b1a8fc5f92",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 0,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 136,
+        "datemiseajour": "2019-10-18T13:39:06+02:00",
+        "localisation": [50.62972, 3.133873],
+        "nom": "RUE CHAMBORD",
+        "adresse": "RUE CHAMBORD",
+        "geo": [50.62972, 3.133873]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.133873, 50.62972]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "810c292189422e556b7205c7d0aafd247a21eef1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "LA MADELEINE",
+        "type": "AVEC TPE",
+        "libelle": 96,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64543, 3.075116],
+        "nom": "ROMARIN",
+        "adresse": "ALLEE VICTOR BASCH",
+        "geo": [50.64543, 3.075116]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.075116, 50.64543]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6ffe00ce76302c0ca3447f0b0d4dde4110e80afc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 11,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 25,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.63603, 3.069678],
+        "nom": "GARE LILLE FLANDRES",
+        "adresse": "PLACE DE LA GARE",
+        "geo": [50.63603, 3.069678]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.069678, 50.63603]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5b60a1fde009c57f03463052a19d2be44fe491f1",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 15,
+        "commune": "LAMBERSART",
+        "type": "AVEC TPE",
+        "libelle": 158,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.644943, 3.036932],
+        "nom": "DELECAUT",
+        "adresse": "FACE AU 102 AVENUE HENRI DELECAUX",
+        "geo": [50.644943, 3.036932]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.036932, 50.644943]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "403196846449e9112ed35de44205f1c8480fb271",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 5,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 18,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6428, 3.055932],
+        "nom": "VOLTAIRE",
+        "adresse": "93 RUE ROYALE",
+        "geo": [50.6428, 3.055932]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.055932, 50.6428]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "b17aaa7cacc1e6ecf7c3dcf4cc18fb83282eb296",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "LAMBERSART",
+        "type": "AVEC TPE",
+        "libelle": 157,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.64989, 3.042045],
+        "nom": "CANON D'OR",
+        "adresse": "FACE AU 255 RUE DE LILLE",
+        "geo": [50.64989, 3.042045]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.042045, 50.64989]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "98f9f2879dad585b4abc2ef8cad96ad79ef160fc",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 9,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 45,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62648, 3.056666],
+        "nom": "BRULE MAISON",
+        "adresse": "51 RUE DES POSTES",
+        "geo": [50.62648, 3.056666]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.056666, 50.62648]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8c3cbd6ee2b8a21ec2f8b3b27404827ab8aedfd4",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 8,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 234,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.7004, 3.161378],
+        "nom": "ALSACE",
+        "adresse": "89, BOULEVARD D'ARMENTI\u00c8RES",
+        "geo": [50.7004, 3.161378]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.161378, 50.7004]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "01b23a8da5d4fb4098b808fff322595791348a27",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 12,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "AVEC TPE",
+        "libelle": 132,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.61606, 3.132006],
+        "nom": "CENTRE COMMERCIAL V2",
+        "adresse": "BOULEVARD VALMY",
+        "geo": [50.61606, 3.132006]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.132006, 50.61606]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "71d8140b550547e95ae303fc49c9e8df93531b26",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "SANS TPE",
+        "libelle": 237,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.719803, 3.156338],
+        "nom": "RUE DES ANGES",
+        "adresse": "FACE AU 42 RUE DES ANGES",
+        "geo": [50.719803, 3.156338]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.156338, 50.719803]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "30e0278bbe0fc04b17f5cca308226d1ae7195c3d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 7,
+        "nbplacesdispo": 9,
+        "commune": "VILLENEUVE D'ASCQ",
+        "type": "SANS TPE",
+        "libelle": 139,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.62577, 3.144714],
+        "nom": "RUE DE LILLE",
+        "adresse": "RUE DE LILLE",
+        "geo": [50.62577, 3.144714]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.144714, 50.62577]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "a4c6b0b81ad268f5dd2bbba599ace14517b9383d",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 10,
+        "nbplacesdispo": 7,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 238,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.72075, 3.152659],
+        "nom": "THEATRE TOURCOING",
+        "adresse": "1, RUE DE L'ALMA",
+        "geo": [50.72075, 3.152659]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.152659, 50.72075]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "e13a680fba659893fd0817c29163a25a48be1a5f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 11,
+        "nbplacesdispo": 19,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 209,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.674995, 3.195737],
+        "nom": "USINE",
+        "adresse": "AVENUE ALFRED MOTTE",
+        "geo": [50.674995, 3.195737]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.195737, 50.674995]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "c385280764ccaa793b0e82c01bf0da1677cb30d0",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 5,
+        "nbplacesdispo": 7,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 214,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.6795, 3.179257],
+        "nom": "SAINT JEAN-BAPTISTE",
+        "adresse": "1, RUE LESUEUR",
+        "geo": [50.6795, 3.179257]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.179257, 50.6795]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "5e4efa6caf6b4fa7689447ccc2cebe9117acd1c2",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 211,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.674164, 3.174519],
+        "nom": "GUSTAVE DELORY",
+        "adresse": "48, AVENUE GUSTAVE DELORY",
+        "geo": [50.674164, 3.174519]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.174519, 50.674164]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "83cdd0aed6aa42c977792937e0dc121b96b3773f",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 8,
+        "commune": "ROUBAIX",
+        "type": "AVEC TPE",
+        "libelle": 220,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.693768, 3.167666],
+        "nom": "MUSEE ART ET INDUSTRIE",
+        "adresse": "105, AVENUE JEAN-BAPTISTE LEBAS",
+        "geo": [50.693768, 3.167666]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.167666, 50.693768]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "6b2794be5a33235fdc3ee653d7c6d916bb20f916",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 229,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.692368, 3.185092],
+        "nom": "NATIONS UNIES",
+        "adresse": "158, BOULEVARD GAMBETTA",
+        "geo": [50.692368, 3.185092]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.185092, 50.692368]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "8039317a718eaa6fd3af7b08cbbddb014055ba8a",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 9,
+        "nbplacesdispo": 9,
+        "commune": "TOURCOING",
+        "type": "AVEC TPE",
+        "libelle": 242,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.716843, 3.167834],
+        "nom": "TOURCOING GARE",
+        "adresse": "PLACE PIERRE SEMARD",
+        "geo": [50.716843, 3.167834]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.167834, 50.716843]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "76ae66fb0efdf2767bd2ae0499d69ae002b01bce",
+      "fields": {
+        "etat": "EN SERVICE",
+        "etatconnexion": "CONNECTED",
+        "nbvelosdispo": 6,
+        "nbplacesdispo": 12,
+        "commune": "ROUBAIX",
+        "type": "SANS TPE",
+        "libelle": 213,
+        "datemiseajour": "2020-04-11T16:15:05+02:00",
+        "localisation": [50.68859, 3.182028],
+        "nom": "LANNOY",
+        "adresse": "93, RUE DE LANNOY",
+        "geo": [50.68859, 3.182028]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.182028, 50.68859]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    },
+    {
+      "datasetid": "vlille-realtime",
+      "recordid": "57e3f6dfb550022b892dba19b4215ce6fad943d2",
+      "fields": {
+        "etat": "HORS SERVICE",
+        "etatconnexion": "DISCONNECTED",
+        "nbvelosdispo": 0,
+        "nbplacesdispo": 1,
+        "commune": "LILLE",
+        "type": "AVEC TPE",
+        "libelle": 59,
+        "datemiseajour": "2019-08-30T05:05:05+02:00",
+        "localisation": [50.622223, 3.077127],
+        "nom": "BELFORT",
+        "adresse": "84 RUE DE TREVISE",
+        "geo": [50.622223, 3.077127]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.077127, 50.622223]
+      },
+      "record_timestamp": "2020-04-11T16:16:06.534+02:00"
+    }
+  ]
+}
