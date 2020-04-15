@@ -19,7 +19,7 @@ export default class Mappy extends React.Component {
   getVlilleLocalisation = () => {
     axios
       .get(
-        "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&facet=libelle&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion"
+        "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&rows=244&facet=libelle&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion"
       )
       .then((response) => response.data)
       .then((data) => {
