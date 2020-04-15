@@ -1,13 +1,12 @@
 import React from "react";
-import Wilder from "./components/Wilder";
+import Mappy from "./components/Mappy";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hi there !</h1>
-      <Wilder />
-    </div>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Mappy />
+      </div>
+    );
+  }
 }
-
-export default App;
