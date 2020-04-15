@@ -1,16 +1,24 @@
 import React from "react";
 import "./Mappy.scss";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import * as data from "./data.json";
 import axios from "axios";
 
 export default class Mappy extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      openPopUp: false,
       stations: [],
+      currentStation: {},
     };
   }
+
+  handleChangeOnclick = (stat) => {
+    this.setState({
+      openPopUp: !this.state.openPopUp,
+      currentStation: stat,
+    });
+  };
 
   componentDidMount() {
     this.getVlilleLocalisation();
@@ -35,7 +43,6 @@ export default class Mappy extends React.Component {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
         {this.state.stations.map((station) => {
-          console.log(station);
           return (
             <Marker
               key={station.fields.libelle}
@@ -43,7 +50,14 @@ export default class Mappy extends React.Component {
                 station.fields.localisation[0],
                 station.fields.localisation[1],
               ]}
-            />
+              onClick={() => {
+                this.handleChangeOnclick(station);
+              }}
+            >
+              {this.state.openPopUp && (
+                <Popup>{this.state.currentStation.fields.libelle}</Popup>
+              )}
+            </Marker>
           );
         })}
       </Map>
