@@ -11,7 +11,7 @@ export default class Mappy extends React.Component {
 
   render() {
     return (
-      <Map center={[50.62925, 3.057256]} zoom={17}>
+      <Map center={[50.62925, 3.057256]} zoom={16}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
