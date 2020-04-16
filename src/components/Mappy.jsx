@@ -7,18 +7,9 @@ export default class Mappy extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      openPopUp: false,
       stations: [],
-      currentStation: {},
     };
   }
-
-  handleChangeOnclick = (stat) => {
-    this.setState({
-      openPopUp: !this.state.openPopUp,
-      currentStation: stat,
-    });
-  };
 
   componentDidMount() {
     this.getVlilleLocalisation();
@@ -45,18 +36,25 @@ export default class Mappy extends React.Component {
         {this.state.stations.map((station) => {
           return (
             <Marker
+              className="marker"
               key={station.fields.libelle}
               position={[
                 station.fields.localisation[0],
                 station.fields.localisation[1],
               ]}
-              onClick={() => {
-                this.handleChangeOnclick(station);
-              }}
             >
-              {this.state.openPopUp && (
-                <Popup>{this.state.currentStation.fields.libelle}</Popup>
-              )}
+              <Popup
+                className="popup"
+                key={station.fields.libelle}
+                position={[
+                  station.fields.localisation[0],
+                  station.fields.localisation[1],
+                ]}
+              >
+                <h2>Station: {station.fields.nom}</h2>
+                <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
+                <p>Nombres places: {station.fields.nbplacesdispo}</p>
+              </Popup>
             </Marker>
           );
         })}
