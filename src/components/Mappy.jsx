@@ -1,8 +1,18 @@
 import React from "react";
 import "./Mappy.scss";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
+import { Icon } from "leaflet";
 import axios from "axios";
 
+const iconeFull = new Icon({
+  iconUrl: "/full.png",
+  iconSize: [35, 49.58],
+});
+
+const iconeHalf = new Icon({
+  iconUrl: "/half.png",
+  iconSize: [35, 49.58],
+});
 export default class Mappy extends React.Component {
   constructor(props) {
     super(props);
@@ -42,6 +52,7 @@ export default class Mappy extends React.Component {
                 station.fields.localisation[0],
                 station.fields.localisation[1],
               ]}
+              icon={station.fields.nbvelosdispo > 10 ? iconeFull : iconeHalf}
             >
               <Popup
                 className="popup"
