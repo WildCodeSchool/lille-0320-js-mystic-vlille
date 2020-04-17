@@ -1,8 +1,33 @@
 import React from "react";
 import "./Mappy.scss";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import * as data from "./data.json";
+import { Icon } from "leaflet";
 import axios from "axios";
+
+const iconeFull = new Icon({
+  iconUrl: "/full.png",
+  iconSize: [35, 49.58],
+});
+
+const iconeHalf = new Icon({
+  iconUrl: "/half.png",
+  iconSize: [35, 49.58],
+});
+
+const iconeQuarter = new Icon({
+  iconUrl: "/quater.png",
+  iconSize: [35, 49.58],
+});
+
+const iconeTroisQuart = new Icon({
+  iconUrl: "/trois.png",
+  iconSize: [35, 49.58],
+});
+
+const iconeEmpty = new Icon({
+  iconUrl: "/empty.png",
+  iconSize: [35, 49.58],
+});
 
 export default class Mappy extends React.Component {
   constructor(props) {
@@ -28,6 +53,25 @@ export default class Mappy extends React.Component {
   };
 
   render() {
+    const changeIcon = (station) => {
+      const percentage =
+        station.fields.nbvelosdispo /
+        (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
+      if (percentage === 0) {
+        return iconeEmpty;
+      }
+      if (percentage > 0 && percentage <= 0.25) {
+        return iconeQuarter;
+      }
+      if (percentage > 0.25 && percentage <= 0.5) {
+        return iconeHalf;
+      }
+      if (percentage > 0.5 && percentage <= 0.75) {
+        return iconeTroisQuart;
+      } else {
+        return iconeFull;
+      }
+    };
     return (
       <Map center={[50.62925, 3.057256]} zoom={16}>
         <TileLayer
@@ -35,15 +79,29 @@ export default class Mappy extends React.Component {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
         {this.state.stations.map((station) => {
-          console.log(station);
           return (
             <Marker
+              className="marker"
               key={station.fields.libelle}
               position={[
                 station.fields.localisation[0],
                 station.fields.localisation[1],
               ]}
-            />
+              icon={changeIcon(station)}
+            >
+              <Popup
+                className="popup"
+                key={station.fields.libelle}
+                position={[
+                  station.fields.localisation[0],
+                  station.fields.localisation[1],
+                ]}
+              >
+                <h2>Station: {station.fields.nom}</h2>
+                <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
+                <p>Nombres places: {station.fields.nbplacesdispo}</p>
+              </Popup>
+            </Marker>
           );
         })}
       </Map>
