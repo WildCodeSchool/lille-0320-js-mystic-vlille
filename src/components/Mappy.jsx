@@ -13,6 +13,12 @@ const iconeHalf = new Icon({
   iconUrl: "/half.png",
   iconSize: [35, 49.58],
 });
+
+const iconeEmpty = new Icon({
+  iconUrl: "/empty.png",
+  iconSize: [35, 49.58],
+});
+
 export default class Mappy extends React.Component {
   constructor(props) {
     super(props);
@@ -37,6 +43,19 @@ export default class Mappy extends React.Component {
   };
 
   render() {
+    const changeIcon = (station) => {
+      const percentage =
+        station.fields.nbvelosdispo /
+        (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
+      if (percentage === 0) {
+        return iconeEmpty;
+      }
+      if (percentage > 0 && percentage < 0.5) {
+        return iconeHalf;
+      } else {
+        return iconeFull;
+      }
+    };
     return (
       <Map center={[50.62925, 3.057256]} zoom={16}>
         <TileLayer
@@ -52,7 +71,7 @@ export default class Mappy extends React.Component {
                 station.fields.localisation[0],
                 station.fields.localisation[1],
               ]}
-              icon={station.fields.nbvelosdispo > 10 ? iconeFull : iconeHalf}
+              icon={changeIcon(station)}
             >
               <Popup
                 className="popup"
