@@ -14,6 +14,16 @@ const iconeHalf = new Icon({
   iconSize: [35, 49.58],
 });
 
+const iconeQuarter = new Icon({
+  iconUrl: "/quater.png",
+  iconSize: [35, 49.58],
+});
+
+const iconeTroisQuart = new Icon({
+  iconUrl: "/trois.png",
+  iconSize: [35, 49.58],
+});
+
 const iconeEmpty = new Icon({
   iconUrl: "/empty.png",
   iconSize: [35, 49.58],
@@ -50,8 +60,14 @@ export default class Mappy extends React.Component {
       if (percentage === 0) {
         return iconeEmpty;
       }
-      if (percentage > 0 && percentage < 0.5) {
+      if (percentage > 0 && percentage <= 0.25) {
+        return iconeQuarter;
+      }
+      if (percentage > 0.25 && percentage <= 0.5) {
         return iconeHalf;
+      }
+      if (percentage > 0.5 && percentage <= 0.75) {
+        return iconeTroisQuart;
       } else {
         return iconeFull;
       }
