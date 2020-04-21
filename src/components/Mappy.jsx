@@ -58,6 +58,21 @@ export default class Mappy extends React.Component {
       const percentage =
         station.fields.nbvelosdispo /
         (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
+      if (
+        station.fields.nbvelosdispo === 0 &&
+        station.fields.nbplacesdispo === 0
+      ) {
+        return iconeEmpty;
+      }
+      if (station.fields.etatconnexion === "DISCONNECTED") {
+        return iconeEmpty;
+      }
+      if (
+        station.fields.etat === "OUT_OF_SERVICE" ||
+        station.fields.etat === "EN MAINTENANCE"
+      ) {
+        return iconeEmpty;
+      }
       if (percentage === 0) {
         return iconeEmpty;
       }
