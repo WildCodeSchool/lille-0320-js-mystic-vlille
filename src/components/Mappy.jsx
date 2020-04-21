@@ -3,7 +3,7 @@ import "./Mappy.scss";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
 import axios from "axios";
-import LocateControl from './geo-local';
+import LocateControl from "./geo-local";
 
 const iconeFull = new Icon({
   iconUrl: "/full.png",
@@ -72,20 +72,17 @@ export default class Mappy extends React.Component {
       } else {
         return iconeFull;
       }
-
-      
-
     };
-    const locateOptions = { // for geo-locater//
-      position: 'topleft', // for geo-locater//
+    const locateOptions = {
+      // for geo-locater//
+      position: "topleft", // for geo-locater//
       strings: {
-          title: 'your location' // for geo-locater//
-          
+        title: "your location", // for geo-locater//
       },
-      
-      onActivate: () => {} // for geo-locater//
-  }
-    
+
+      onActivate: () => {}, // for geo-locater//
+    };
+
     return (
       <Map center={[50.62925, 3.057256]} zoom={16}>
         <TileLayer
@@ -118,7 +115,7 @@ export default class Mappy extends React.Component {
             </Marker>
           );
         })}
-        <LocateControl options={locateOptions}  />
+        <LocateControl options={locateOptions} />
       </Map>
     );
   }

@@ -3,6 +3,8 @@ import { withLeaflet } from "react-leaflet";
 import Locate from "leaflet.locatecontrol";
 
 class LocateControl extends Component {
+  
+
 
     componentDidMount() {
         const { options } = this.props;
