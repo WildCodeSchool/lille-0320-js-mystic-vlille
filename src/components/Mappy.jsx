@@ -30,6 +30,11 @@ const iconeEmpty = new Icon({
   iconSize: [35, 49.58],
 });
 
+const iconeGrey = new Icon({
+  iconUrl: "/grey.png",
+  iconSize: [35, 49.58],
+});
+
 export default class Mappy extends React.Component {
   constructor(props) {
     super(props);
@@ -62,16 +67,16 @@ export default class Mappy extends React.Component {
         station.fields.nbvelosdispo === 0 &&
         station.fields.nbplacesdispo === 0
       ) {
-        return iconeEmpty;
+        return iconeGrey;
       }
       if (station.fields.etatconnexion === "DISCONNECTED") {
-        return iconeEmpty;
+        return iconeGrey;
       }
       if (
         station.fields.etat === "OUT_OF_SERVICE" ||
         station.fields.etat === "EN MAINTENANCE"
       ) {
-        return iconeEmpty;
+        return iconeGrey;
       }
       if (percentage === 0) {
         return iconeEmpty;
