@@ -34,19 +34,15 @@ export default function BottomAppBar() {
       <CssBaseline />
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="open drawer">
-            <MenuIcon />
-          </IconButton>
+          <IconButton
+            edge="start"
+            color="inherit"
+            aria-label="open drawer"
+          ></IconButton>
           <Fab color="secondary" aria-label="add" className={classes.fabButton}>
             <AddIcon />
           </Fab>
           <div className={classes.grow} />
-          <IconButton color="inherit">
-            <SearchIcon />
-          </IconButton>
-          <IconButton edge="end" color="inherit">
-            <MoreIcon />
-          </IconButton>
         </Toolbar>
       </AppBar>
     </>
