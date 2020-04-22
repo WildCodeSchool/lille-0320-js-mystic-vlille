@@ -129,6 +129,7 @@ export default class Mappy extends React.Component {
                 ]}
               >
                 <h2>Station: {station.fields.nom}</h2>
+                <p>{station.fields.etat}</p>
                 <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
                 <p>Nombres places: {station.fields.nbplacesdispo}</p>
               </Popup>
