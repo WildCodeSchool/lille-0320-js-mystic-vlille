@@ -1,12 +1,18 @@
 import React from "react";
 import Mappy from "./components/Mappy";
+import NavBar from "./components/styles/NavBar";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 export default class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Mappy />
-      </div>
+      <>
+        <CssBaseline />
+        <NavBar />
+        <div className="App">
+          <Mappy />
+        </div>
+      </>
     );
   }
 }
