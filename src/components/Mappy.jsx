@@ -128,22 +128,21 @@ export default class Mappy extends React.Component {
               ]}
               icon={changeIcon(station)}
             >
-              <Popup
-                className={stationState(station) ? "popupUnavailable" : "popup"}
-                key={station.fields.libelle}
-                position={[
-                  station.fields.localisation[0],
-                  station.fields.localisation[1],
-                ]}
-              >
-                <h2>Station: {station.fields.nom}</h2>
-                {stationState(station) || (
-                  <div>
-                    <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
-                    <p>Nombres places: {station.fields.nbplacesdispo}</p>
-                  </div>
-                )}
-              </Popup>
+              {!stationState(station) && (
+                <Popup
+                  className="popup"
+                  key={station.fields.libelle}
+                  position={[
+                    station.fields.localisation[0],
+                    station.fields.localisation[1],
+                  ]}
+                >
+                  <h2>Station: {station.fields.nom}</h2>
+                  <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
+                  <p>Nombres places: {station.fields.nbplacesdispo}</p>
+                  )}
+                </Popup>
+              )}
             </Marker>
           );
         })}
