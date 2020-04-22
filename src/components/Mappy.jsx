@@ -64,20 +64,15 @@ export default class Mappy extends React.Component {
         station.fields.nbvelosdispo /
         (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
       if (
-        station.fields.nbvelosdispo === 0 &&
-        station.fields.nbplacesdispo === 0
-      ) {
-        return iconeGrey;
-      }
-      if (station.fields.etatconnexion === "DISCONNECTED") {
-        return iconeGrey;
-      }
-      if (
+        (station.fields.nbvelosdispo === 0 &&
+          station.fields.nbplacesdispo === 0) ||
+        station.fields.etatconnexion === "DISCONNECTED" ||
         station.fields.etat === "OUT_OF_SERVICE" ||
         station.fields.etat === "EN MAINTENANCE"
       ) {
         return iconeGrey;
       }
+
       if (percentage === 0) {
         return iconeEmpty;
       }
@@ -101,6 +96,19 @@ export default class Mappy extends React.Component {
       },
 
       onActivate: () => {}, // for geo-locater//
+    };
+
+    const stationState = (station) => {
+      const unavailable = "Indisponible";
+      if (
+        station.fields.etat === "OUT_OF_SERVICE" ||
+        station.fields.etat === "EN MAINTENANCE" ||
+        station.fields.etatconnexion === "DISCONNECTED" ||
+        (station.fields.nbvelosdispo === 0 &&
+          station.fields.nbplacesdispo === 0)
+      ) {
+        return unavailable;
+      }
     };
 
     return (
@@ -129,7 +137,7 @@ export default class Mappy extends React.Component {
                 ]}
               >
                 <h2>Station: {station.fields.nom}</h2>
-                <p>{station.fields.etat}</p>
+                <p>{stationState(station)}</p>
                 <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
                 <p>Nombres places: {station.fields.nbplacesdispo}</p>
               </Popup>
