@@ -42,6 +42,11 @@ export default class Mappy extends React.Component {
       this.getVlilleLocalisation();
     }, 1000 * 60 * 2);
   }
+
+  componentWillUnmount() {
+    clearInterval(this.getVlilleLocalisation);
+  }
+
   getVlilleLocalisation = () => {
     axios
       .get(
