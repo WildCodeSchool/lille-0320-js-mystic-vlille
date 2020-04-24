@@ -58,36 +58,49 @@ export default class Mappy extends React.Component {
       });
   };
 
-  render() {
-    const changeIcon = (station) => {
-      const percentage =
-        station.fields.nbvelosdispo /
-        (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
-      if (
-        (station.fields.nbvelosdispo === 0 &&
-          station.fields.nbplacesdispo === 0) ||
-        station.fields.etatconnexion === "DISCONNECTED" ||
-        station.fields.etat === "OUT_OF_SERVICE" ||
-        station.fields.etat === "EN MAINTENANCE"
-      ) {
-        return iconeGrey;
-      }
+  changeIcon = (station) => {
+    const percentage =
+      station.fields.nbvelosdispo /
+      (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
+    if (
+      (station.fields.nbvelosdispo === 0 &&
+        station.fields.nbplacesdispo === 0) ||
+      station.fields.etatconnexion === "DISCONNECTED" ||
+      station.fields.etat === "OUT_OF_SERVICE" ||
+      station.fields.etat === "EN MAINTENANCE"
+    ) {
+      return iconeGrey;
+    }
 
-      if (percentage === 0) {
-        return iconeEmpty;
-      }
-      if (percentage > 0 && percentage <= 0.25) {
-        return iconeQuarter;
-      }
-      if (percentage > 0.25 && percentage <= 0.5) {
-        return iconeHalf;
-      }
-      if (percentage > 0.5 && percentage <= 0.75) {
-        return iconeTroisQuart;
-      } else {
-        return iconeFull;
-      }
-    };
+    if (percentage === 0) {
+      return iconeEmpty;
+    }
+    if (percentage > 0 && percentage <= 0.25) {
+      return iconeQuarter;
+    }
+    if (percentage > 0.25 && percentage <= 0.5) {
+      return iconeHalf;
+    }
+    if (percentage > 0.5 && percentage <= 0.75) {
+      return iconeTroisQuart;
+    } else {
+      return iconeFull;
+    }
+  };
+
+  stationState = (station) => {
+    const unavailable = "Indisponible";
+    if (
+      station.fields.etat === "OUT_OF_SERVICE" ||
+      station.fields.etat === "EN MAINTENANCE" ||
+      station.fields.etatconnexion === "DISCONNECTED" ||
+      (station.fields.nbvelosdispo === 0 && station.fields.nbplacesdispo === 0)
+    ) {
+      return unavailable;
+    }
+  };
+
+  render() {
     const locateOptions = {
       // for geo-locater//
       position: "topleft", // for geo-locater//
@@ -96,19 +109,6 @@ export default class Mappy extends React.Component {
       },
 
       onActivate: () => {}, // for geo-locater//
-    };
-
-    const stationState = (station) => {
-      const unavailable = "Indisponible";
-      if (
-        station.fields.etat === "OUT_OF_SERVICE" ||
-        station.fields.etat === "EN MAINTENANCE" ||
-        station.fields.etatconnexion === "DISCONNECTED" ||
-        (station.fields.nbvelosdispo === 0 &&
-          station.fields.nbplacesdispo === 0)
-      ) {
-        return unavailable;
-      }
     };
 
     return (
@@ -126,9 +126,9 @@ export default class Mappy extends React.Component {
                 station.fields.localisation[0],
                 station.fields.localisation[1],
               ]}
-              icon={changeIcon(station)}
+              icon={this.changeIcon(station)}
             >
-              {!stationState(station) && (
+              {!this.stationState(station) && (
                 <Popup
                   className="popup"
                   key={station.fields.libelle}
