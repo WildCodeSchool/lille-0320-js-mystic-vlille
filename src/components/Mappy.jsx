@@ -4,6 +4,7 @@ import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
 import axios from "axios";
 import LocateControl from "./geo-local";
+import Search from "./styles/searchBarMap";
 
 const iconeFull = new Icon({
   iconUrl: "/full.png",
@@ -147,6 +148,7 @@ export default class Mappy extends React.Component {
           );
         })}
         <LocateControl options={locateOptions} />
+        <Search />
       </Map>
     );
   }
