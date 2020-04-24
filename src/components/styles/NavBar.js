@@ -7,6 +7,7 @@ import InputBase from "@material-ui/core/InputBase";
 import { fade, makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
+import SwitchButton from "./SwitchButton";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -79,6 +80,7 @@ export default function NavBar() {
           <Typography className={classes.title} variant="h6" noWrap>
             V'Lille App
           </Typography>
+          <SwitchButton />
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
