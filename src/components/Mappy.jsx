@@ -45,6 +45,13 @@ export default class Mappy extends React.Component {
 
   componentDidMount() {
     this.getVlilleLocalisation();
+    this.intVlilleLocalisation = setInterval(() => {
+      this.getVlilleLocalisation();
+    }, 1000 * 60 * 2);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.intVlilleLocalisation);
   }
 
   getVlilleLocalisation = () => {
