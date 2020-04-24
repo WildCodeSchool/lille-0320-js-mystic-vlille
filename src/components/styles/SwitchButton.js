@@ -1,24 +1,23 @@
 import React from "react";
 import Switch from "@material-ui/core/Switch";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export default function Switches() {
   const [state, setState] = React.useState({
     checkedA: true,
-    checkedB: true,
   });
 
   const handleChange = (event) => {
-    setState({ ...state, [event.target.name]: event.target.checked });
+    setState({ state, [event.target.name]: event.target.checked });
   };
 
   return (
     <div>
-      <Switch
+      <Switch>
         checked={state.checkedA}
         onChange={handleChange}
-        name="checkedA"
-        inputProps={{ "aria-label": "secondary checkbox" }}
-      />
+        name="checkedA" inputProps={{ "aria-label": "secondary checkbox" }}
+      </Switch>
     </div>
   );
 }
