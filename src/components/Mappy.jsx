@@ -45,7 +45,7 @@ export default class Mappy extends React.Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.getVlilleLocalisation());
+    clearInterval(this.intVilleLocalisation);
   }
 
   getVlilleLocalisation = () => {
