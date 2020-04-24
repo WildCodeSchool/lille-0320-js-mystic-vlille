@@ -7,6 +7,9 @@
 .popup .leaflet-popup-content-wrapper {
   color: rgb(255, 0, 119);
 }
+.popupUnavailable .leaflet-popup-content-wrapper {
+  color: grey;
+}
 
 .marker .popup .leaflet-popup-content-wrapper {
   background-color: red;
