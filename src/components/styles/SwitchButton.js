@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import Switch from "@material-ui/core/Switch";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -21,3 +22,4 @@ export default function Switches() {
     </div>
   );
 }
+*/
