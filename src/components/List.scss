@@ -1,0 +1,11 @@
+.mesListes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.mesListes p,
+.mesListes h2 {
+  width: 30%;
+}

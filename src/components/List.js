@@ -1,11 +1,19 @@
 import React from "react";
+import "./List.scss";
 
-export default class List extends React.Component {
-  render() {
-    return (
-      <div>
-        <h2>Ma Liste</h2>
-      </div>
-    );
-  }
+export default function List({ stations }) {
+  return (
+    <div>
+      {stations.map((station) => {
+        return (
+          <div className="mesListes">
+            <h2 key={station.fields.libelle}>{station.fields.nom}</h2>
+
+            <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
+            <p>Nombres places: {station.fields.nbplacesdispo}</p>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
