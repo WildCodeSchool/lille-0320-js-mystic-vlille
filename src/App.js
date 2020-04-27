@@ -11,40 +11,40 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: true
+      active: true,
     };
   }
-  handleChange = event => {
+  handleChange = (event) => {
     this.setState({ active: !this.state.active });
   };
   render() {
     return (
-        <Router>
-          <CssBaseline />
-          <NavBar/>
-          {this.state.active ? (
-                  <Link to="/list">
-                    <SwitchButton
-                      checked={this.state.active}
-                      onClick={this.handleChange}
-                    />
-                  </Link>
-                ) : (
-                  <Link to="/">
-                    <SwitchButton
-                      checked={this.state.active}
-                      onClick={this.handleChange}
-                    />
-                  </Link>
-                )}
-          <div className="App">
-            <Switch>
-              <Route exact path="/" component={Mappy} />
-              <Route path="/list" component={List} />
-            </Switch>
-          </div>
-          <BottomAppBar />
-        </Router>
+      <Router>
+        <CssBaseline />
+        <NavBar />
+        {this.state.active ? (
+          <Link to="/list">
+            <SwitchButton
+              checked={this.state.active}
+              onClick={this.handleChange}
+            />
+          </Link>
+        ) : (
+          <Link to="/">
+            <SwitchButton
+              checked={this.state.active}
+              onClick={this.handleChange}
+            />
+          </Link>
+        )}
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={Mappy} />
+            <Route path="/list" component={List} />
+          </Switch>
+        </div>
+        <BottomAppBar />
+      </Router>
     );
   }
 }

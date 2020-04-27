@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
@@ -9,7 +10,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import SwitchButton from "@material-ui/core/Switch";
 
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -66,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 export default function NavBar() {
+  const [active, setActive] = useState(true);
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -82,7 +84,21 @@ export default function NavBar() {
           <Typography className={classes.title} variant="h6" noWrap>
             V'Lille App
           </Typography>
-          <SwitchButton/>
+          {active ? (
+            <Link to="/list">
+              <SwitchButton
+                checked={active}
+                onClick={() => setActive(!active)}
+              />
+            </Link>
+          ) : (
+            <Link to="/">
+              <SwitchButton
+                checked={active}
+                onClick={() => setActive(!active)}
+              />
+            </Link>
+          )}
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
