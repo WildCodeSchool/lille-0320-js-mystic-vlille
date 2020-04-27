@@ -1,12 +1,12 @@
 import React from "react";
 import Mappy from "./components/Mappy";
-
+import axios from "axios";
 import BottomAppBar from "./components/styles/BottomAppBar";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import SwitchButton from "@material-ui/core/Switch";
 import List from "./components/List";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
@@ -74,6 +74,25 @@ const useStyles = makeStyles((theme) => ({
 export default function App() {
   const [active, setActive] = useState(true);
   const classes = useStyles();
+  const [stations, setStations] = useState([]);
+
+  useEffect(() => {
+    getVlilleLocalisation();
+  }, []);
+
+  const getVlilleLocalisation = () => {
+    axios
+      .get(
+        "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&rows=244&facet=libelle&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion"
+      )
+      .then((response) => response.data)
+      .then((data) => {
+        setStations(data.records);
+      });
+    setTimeout(() => {
+      getVlilleLocalisation();
+    }, 2 * 1000 * 60);
+  };
 
   return (
     <Router>
@@ -125,8 +144,12 @@ export default function App() {
       </div>
 
       <Switch>
-        <Route exact path="/" component={Mappy} />
-        <Route path="/list" component={List} />
+        <Route exact path="/">
+          <Mappy stations={stations} />
+        </Route>
+        <Route path="/list">
+          <List stations={stations} />
+        </Route>
       </Switch>
 
       <BottomAppBar />
