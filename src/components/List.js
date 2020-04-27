@@ -2,6 +2,7 @@ import React from "react";
 import "./List.scss";
 
 export default function List({ stations }) {
+  console.log(stations);
   return (
     <div>
       {stations.map((station) => {
