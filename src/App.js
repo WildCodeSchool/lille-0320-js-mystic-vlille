@@ -28,15 +28,27 @@ export default function App() {
     }, 2 * 1000 * 60);
   };
 
+  const stationState = (station) => {
+    const unavailable = "Indisponible";
+    if (
+      station.fields.etat === "OUT_OF_SERVICE" ||
+      station.fields.etat === "EN MAINTENANCE" ||
+      station.fields.etatconnexion === "DISCONNECTED" ||
+      (station.fields.nbvelosdispo === 0 && station.fields.nbplacesdispo === 0)
+    ) {
+      return unavailable;
+    }
+  };
+
   return (
     <Router>
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <Mappy stations={stations} />
+          <Mappy stations={stations} stationState={stationState} />
         </Route>
         <Route path="/list">
-          <List stations={stations} />
+          <List stations={stations} stationState={stationState} />
         </Route>
       </Switch>
 

@@ -7,11 +7,12 @@ export default function List({ stations }) {
     <div>
       {stations.map((station) => {
         return (
-          <div className="mesListes">
+          <div className="list">
             <h2 key={station.fields.libelle}>{station.fields.nom}</h2>
-
-            <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
-            <p>Nombres places: {station.fields.nbplacesdispo}</p>
+            <div className="mesListes">
+              <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
+              <p>Nombres places: {station.fields.nbplacesdispo}</p>
+            </div>
           </div>
         );
       })}

@@ -1,11 +1,14 @@
+.list {
+  border: 1px black solid;
+}
+
 .mesListes {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: auto;
 }
 
-.mesListes p,
-.mesListes h2 {
-  width: 30%;
+h2 {
+  text-align: center;
 }
