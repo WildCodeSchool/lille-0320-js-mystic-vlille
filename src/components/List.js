@@ -1,11 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import "./List.scss";
 
 export default function List({ stations, stationState }) {
-  const [arriveeLat, setArriveeLat] = useState([]);
-  const [arriveeLong, setArriveeLong] = useState([]);
-
   const departLat = 50.630943;
   const departLong = 3.060299;
 
