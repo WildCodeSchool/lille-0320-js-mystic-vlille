@@ -2,7 +2,6 @@ import React from "react";
 import "./Mappy.scss";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
-import axios from "axios";
 import LocateControl from "./geo-local";
 
 const iconeFull = new Icon({
@@ -35,37 +34,8 @@ const iconeGrey = new Icon({
   iconSize: [35, 49.58],
 });
 
-export default class Mappy extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      stations: [],
-    };
-  }
-
-  componentDidMount() {
-    this.getVlilleLocalisation();
-    this.intVlilleLocalisation = setInterval(() => {
-      this.getVlilleLocalisation();
-    }, 1000 * 60 * 2);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.intVlilleLocalisation);
-  }
-
-  getVlilleLocalisation = () => {
-    axios
-      .get(
-        "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&rows=244&facet=libelle&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion"
-      )
-      .then((response) => response.data)
-      .then((data) => {
-        this.setState({ stations: data.records });
-      });
-  };
-
-  changeIcon = (station) => {
+export default function Mappy({ stations, stationState }) {
+  const changeIcon = (station) => {
     const percentage =
       station.fields.nbvelosdispo /
       (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
@@ -95,66 +65,52 @@ export default class Mappy extends React.Component {
     }
   };
 
-  stationState = (station) => {
-    const unavailable = "Indisponible";
-    if (
-      station.fields.etat === "OUT_OF_SERVICE" ||
-      station.fields.etat === "EN MAINTENANCE" ||
-      station.fields.etatconnexion === "DISCONNECTED" ||
-      (station.fields.nbvelosdispo === 0 && station.fields.nbplacesdispo === 0)
-    ) {
-      return unavailable;
-    }
+  const locateOptions = {
+    // for geo-locater//
+    position: "topleft", // for geo-locater//
+    strings: {
+      title: "your location", // for geo-locater//
+    },
+
+    onActivate: () => {}, // for geo-locater//
   };
 
-  render() {
-    const locateOptions = {
-      // for geo-locater//
-      position: "topleft", // for geo-locater//
-      strings: {
-        title: "your location", // for geo-locater//
-      },
-
-      onActivate: () => {}, // for geo-locater//
-    };
-
-    return (
-      <Map center={[50.62925, 3.057256]} zoom={16}>
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        />
-        {this.state.stations.map((station) => {
-          return (
-            <Marker
-              className="marker"
-              key={station.fields.libelle}
-              position={[
-                station.fields.localisation[0],
-                station.fields.localisation[1],
-              ]}
-              icon={this.changeIcon(station)}
-            >
-              {!this.stationState(station) && (
-                <Popup
-                  className="popup"
-                  key={station.fields.libelle}
-                  position={[
-                    station.fields.localisation[0],
-                    station.fields.localisation[1],
-                  ]}
-                >
-                  <h2>Station: {station.fields.nom}</h2>
-                  <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
-                  <p>Nombres places: {station.fields.nbplacesdispo}</p>
-                  )}
-                </Popup>
-              )}
-            </Marker>
-          );
-        })}
-        <LocateControl options={locateOptions} />
-      </Map>
-    );
-  }
+  return (
+    <Map center={[50.62925, 3.057256]} zoom={16}>
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      />
+      {stations.map((station) => {
+        return (
+          <Marker
+            className="marker"
+            key={station.fields.libelle}
+            position={[
+              station.fields.localisation[0],
+              station.fields.localisation[1],
+            ]}
+            icon={changeIcon(station)}
+          >
+            {!stationState(station) && (
+              <Popup
+                className="popup"
+                key={station.fields.libelle}
+                position={[
+                  station.fields.localisation[0],
+                  station.fields.localisation[1],
+                ]}
+              >
+                <h2>Station: {station.fields.nom}</h2>
+                <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
+                <p>Nombres places: {station.fields.nbplacesdispo}</p>
+                )}
+              </Popup>
+            )}
+          </Marker>
+        );
+      })}
+      <LocateControl options={locateOptions} />
+    </Map>
+  );
 }
