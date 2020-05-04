@@ -16,8 +16,26 @@ export default function List({ stations, stationState }) {
     );
     return result.toFixed(3);
   };
+  const changeIcon = (station) => {
+    const percentage =
+      station.fields.nbvelosdispo /
+      (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
+    if (percentage === 0) {
+      return "/empty.png";
+    }
+    if (percentage > 0 && percentage <= 0.25) {
+      return "/quater.png";
+    }
+    if (percentage > 0.25 && percentage <= 0.5) {
+      return "/half.png";
+    }
+    if (percentage > 0.5 && percentage <= 0.75) {
+      return "/trois.png";
+    } else {
+      return "/full.png";
+    }
+  };
 
-  console.log(stations);
   return (
     <div>
       {stations.map((station) => {
@@ -25,18 +43,23 @@ export default function List({ stations, stationState }) {
           <div>
             {!stationState(station) && (
               <div className="list">
-                <h2
-                  key={station.fields.libelle}
-                  position={[
-                    station.fields.localisation[0],
-                    station.fields.localisation[1],
-                  ]}
-                >
-                  {station.fields.nom}
-                </h2>
+                <div className="image">
+                  <img alt="jauge" src={changeIcon(station)} />
+                </div>
+                <div className="title">
+                  <h2
+                    key={station.fields.libelle}
+                    position={[
+                      station.fields.localisation[0],
+                      station.fields.localisation[1],
+                    ]}
+                  >
+                    {station.fields.nom}
+                  </h2>
+                  <p>{distance(station)} km</p>
+                </div>
                 <div className="mesListes">
                   <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
-                  <p>{distance(station)} km</p>
                   <p>Nombres places: {station.fields.nbplacesdispo}</p>
                 </div>
               </div>
