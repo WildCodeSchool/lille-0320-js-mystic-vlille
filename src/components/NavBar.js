@@ -33,7 +33,7 @@ const NavBar = () => {
             <Typography className={classes.title} variant="h6" noWrap>
               V'Lille App
             </Typography>
-            <TransitionsModal />
+            <TransitionsModal title="Aide" />
             {active ? (
               <Link to="/list">
                 <SwitchButton

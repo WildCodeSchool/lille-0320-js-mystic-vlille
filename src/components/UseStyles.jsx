@@ -60,12 +60,31 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: theme.palette.background.paper,
-    border: "2px solid #000",
+    border: "1px solid",
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
   },
   modalButton: {
     cursor: "pointer",
+    iconHover: {
+      color: "secondary",
+    },
+  },
+
+  modalLegend: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "0",
+    fontSize: "0.9rem",
+  },
+  modalImg: {
+    width: "1rem",
+    margin: "15px",
+  },
+  modalText: {
+    padding: "0",
+    marginTop: "0",
+    marginLeft: "30px",
   },
 }));
 

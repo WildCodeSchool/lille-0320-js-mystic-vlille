@@ -1,5 +1,4 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
@@ -24,7 +23,6 @@ export default function TransitionsModal() {
         type="button"
         onClick={handleOpen}
         className={classes.modalButton}
-        title="Aide"
       />
       <Modal
         aria-labelledby="transition-modal-title"
@@ -40,10 +38,72 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">Transition modal</h2>
-            <p id="transition-modal-description">
-              react-transition-group animates me.
+            <h2 className={classes.modalTitle}>Comment lire les jauges ?</h2>
+            <div className={classes.modalLegend}>
+              <img
+                className={classes.modalImg}
+                src="/full.png"
+                alt="jauge pleine"
+              />
+              <h3>La jauge est pleine</h3>
+            </div>
+            <p className={classes.modalText}>
+              Il n'y a plus de place mais la totalité du parc de vélos est
+              disponible
             </p>
+            <div className={classes.modalLegend}>
+              <img
+                className={classes.modalImg}
+                src="/empty.png"
+                alt="jauge vide"
+              />
+              <h3>La jauge est vide</h3>
+            </div>
+            <p className={classes.modalText}>
+              Il n'a plus de vélo mais la totalité des places est disponible
+            </p>
+            <div className={classes.modalLegend}>
+              <img
+                className={classes.modalImg}
+                src="/quater.png"
+                alt="jauge un quart"
+              />
+              <h3>La jauge est au quart plein</h3>
+            </div>
+            <p className={classes.modalText}>
+              Il ne reste pas beaucoup de vélos sur cette station
+            </p>
+            <div className={classes.modalLegend}>
+              <img
+                className={classes.modalImg}
+                src="/half.png"
+                alt="jauge à moitié"
+              />
+              <h3>La jauge est à moitié pleine</h3>
+            </div>
+            <p className={classes.modalText}>
+              Il reste autant de vélos que de places
+            </p>
+            <div className={classes.modalLegend}>
+              <img
+                className={classes.modalImg}
+                src="/trois.png"
+                alt="jauge trois quart"
+              />
+              <h3>La jauge est au trois-quart plein</h3>
+            </div>
+            <p className={classes.modalText}>
+              Il reste plus de vélos que de places
+            </p>
+            <div className={classes.modalLegend}>
+              <img
+                className={classes.modalImg}
+                src="/grey.png"
+                alt="jauge pleine"
+              />
+              <h3>La jauge est grise</h3>
+            </div>
+            <p className={classes.modalText}>La station est hors service</p>
           </div>
         </Fade>
       </Modal>
