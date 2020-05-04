@@ -21,6 +21,9 @@ export default function App() {
       )
       .then((response) => response.data)
       .then((data) => {
+        data.records.map((station) => {
+          return distance(station);
+        });
         setStations(data.records);
       });
     setTimeout(() => {
@@ -38,6 +41,21 @@ export default function App() {
     ) {
       return unavailable;
     }
+  };
+
+  const distance = (station) => {
+    const departLat = 50.630943;
+    const departLong = 3.060299;
+    const result = Math.sqrt(
+      (station.fields.localisation[0] - departLat) *
+        111 *
+        ((station.fields.localisation[0] - departLat) * 111) +
+        (station.fields.localisation[1] - departLong) *
+          70 *
+          ((station.fields.localisation[1] - departLong) * 70)
+    );
+    station.distance = result.toFixed(3);
+    return station;
   };
 
   return (
