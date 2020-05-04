@@ -10,6 +10,9 @@ import Typography from "@material-ui/core/Typography";
 import InputBase from "@material-ui/core/InputBase";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
+import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
+import Popup from "reactjs-popup";
+import PopupContent from "./PopupContent";
 import useStyles from "./UseStyles";
 
 const NavBar = () => {
@@ -60,6 +63,12 @@ const NavBar = () => {
                 inputProps={{ "aria-label": "search" }}
               />
             </div>
+            <Popup
+              trigger={<HelpOutlineIcon title="Aide" color="secondary" />}
+              modal
+            >
+              {(close) => <PopupContent close={close} />}
+            </Popup>
           </Toolbar>
         </AppBar>
       </div>
