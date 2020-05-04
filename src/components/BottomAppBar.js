@@ -6,9 +6,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Fab from "@material-ui/core/Fab";
 import AddIcon from "@material-ui/icons/Add";
-import Popup from "reactjs-popup";
-import PopupContent from "./PopupContent";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -42,12 +39,6 @@ export default function BottomAppBar() {
           <Fab color="secondary" aria-label="add" className={classes.fabButton}>
             <AddIcon />
           </Fab>
-          <Popup
-            trigger={<HelpOutlineIcon title="Aide" color="secondary" />}
-            modal
-          >
-            {(close) => <PopupContent close={close} />}
-          </Popup>
           <div className={classes.grow} />
         </Toolbar>
       </AppBar>

@@ -10,9 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import InputBase from "@material-ui/core/InputBase";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
-import Popup from "reactjs-popup";
-import PopupContent from "./PopupContent";
+import TransitionsModal from "./Modal";
 import useStyles from "./UseStyles";
 
 const NavBar = () => {
@@ -35,6 +33,7 @@ const NavBar = () => {
             <Typography className={classes.title} variant="h6" noWrap>
               V'Lille App
             </Typography>
+            <TransitionsModal />
             {active ? (
               <Link to="/list">
                 <SwitchButton
@@ -63,12 +62,6 @@ const NavBar = () => {
                 inputProps={{ "aria-label": "search" }}
               />
             </div>
-            <Popup
-              trigger={<HelpOutlineIcon title="Aide" color="secondary" />}
-              modal
-            >
-              {(close) => <PopupContent close={close} />}
-            </Popup>
           </Toolbar>
         </AppBar>
       </div>
