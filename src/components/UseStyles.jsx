@@ -1,4 +1,5 @@
 import { fade, makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -66,11 +67,7 @@ const useStyles = makeStyles((theme) => ({
   },
   modalButton: {
     cursor: "pointer",
-    iconHover: {
-      color: "secondary",
-    },
   },
-
   modalLegend: {
     display: "flex",
     alignItems: "center",

@@ -4,6 +4,7 @@ import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import useStyles from "./UseStyles";
+import Button from "@material-ui/core/Button";
 
 export default function TransitionsModal() {
   const classes = useStyles();
@@ -104,6 +105,15 @@ export default function TransitionsModal() {
               <h3>La jauge est grise</h3>
             </div>
             <p className={classes.modalText}>La station est hors service</p>
+            <Button
+              variant="contained"
+              color="secondary"
+              type="button"
+              onClick={handleClose}
+              actionPosition="right"
+            >
+              J'ai compris
+            </Button>
           </div>
         </Fade>
       </Modal>
