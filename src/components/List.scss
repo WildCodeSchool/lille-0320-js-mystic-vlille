@@ -8,7 +8,7 @@
 .mesListes {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+
   align-items: center;
   margin: auto;
   width: 25%;
@@ -26,9 +26,14 @@ img {
 
 .image {
   width: 25%;
+  margin: auto;
 }
 
 .title {
   text-align: center;
   width: 50%;
+}
+
+.contain {
+  justify-content: space-around;
 }
