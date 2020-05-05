@@ -1,14 +1,39 @@
 .list {
+  display: flex;
   border: 1px black solid;
+  text-align: center;
+  margin: 0;
 }
 
 .mesListes {
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   margin: auto;
+  width: 25%;
+  text-align: center;
 }
 
 h2 {
   text-align: center;
+}
+
+img {
+  height: 49.58px;
+  width: 35px;
+}
+
+.image {
+  width: 25%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  width: 50%;
+}
+
+.contain {
+  justify-content: space-around;
 }
