@@ -58,6 +58,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    flexFlow: "row wrap",
   },
   paper: {
     backgroundColor: theme.palette.background.paper,
@@ -72,10 +73,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     marginBottom: "0",
-    fontSize: "0.9rem",
   },
   modalImg: {
-    width: "1rem",
+    width: "20px",
+    height: "28.33px",
     margin: "15px",
   },
   modalText: {
