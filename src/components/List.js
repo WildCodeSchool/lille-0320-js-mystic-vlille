@@ -23,6 +23,15 @@ export default function List({ stations, stationState }) {
     }
   };
 
+  const changeDistance = (station) => {
+    let article = "km";
+    if (station.distance < 1) {
+      station.distance = Math.round(station.distance * 1000);
+      article = "m";
+    }
+    station.distance = `${station.distance}  ${article}`;
+    return station.distance;
+  };
   return (
     <div>
       {stations
@@ -31,7 +40,7 @@ export default function List({ stations, stationState }) {
         })
         .map((station) => {
           return (
-            <div className="contain">
+            <div key={station.fields.libelle} className="contain">
               {!stationState(station) && (
                 <div className="list">
                   <div className="image">
@@ -39,7 +48,6 @@ export default function List({ stations, stationState }) {
                   </div>
                   <div className="title">
                     <h2
-                      key={station.fields.libelle}
                       position={[
                         station.fields.localisation[0],
                         station.fields.localisation[1],
@@ -47,14 +55,14 @@ export default function List({ stations, stationState }) {
                     >
                       {station.fields.nom}
                     </h2>
-                    <p>{station.distance} km</p>
+                    <p>{changeDistance(station)}</p>
                   </div>
                   <div className="mesListes">
                     <div>
                       <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
                       <p>Nombres places: {station.fields.nbplacesdispo}</p>
                     </div>
-                    <p>{station.fields.type === "AVEC TPE" && <Cb />}</p>
+                    {station.fields.type === "AVEC TPE" && <Cb />}
                   </div>
                 </div>
               )}{" "}
