@@ -2,6 +2,7 @@ import { Component } from "react";
 import L from "leaflet";
 import * as ELG from "esri-leaflet-geocoder";
 import { withLeaflet } from "react-leaflet";
+import "esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css";
 
 class Search extends Component {
   componentDidMount() {
