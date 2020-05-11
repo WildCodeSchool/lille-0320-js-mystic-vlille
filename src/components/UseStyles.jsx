@@ -1,5 +1,4 @@
 import { fade, makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,9 +60,6 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: theme.palette.background.paper,
-    border: "1px solid",
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
   },
   modalButton: {
     cursor: "pointer",
