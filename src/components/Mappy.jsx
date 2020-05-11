@@ -101,10 +101,38 @@ export default function Mappy({ stations, stationState }) {
                   station.fields.localisation[1],
                 ]}
               >
-                <h2>Station: {station.fields.nom}</h2>
-                <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
-                <p>Nombres places: {station.fields.nbplacesdispo}</p>
-                )}
+                <h2 class="title_popup">{station.fields.nom}</h2>
+                <div class="wrapper">
+                  <div class="info_velos">
+                    <img src="./velo.png" alt="velo" />
+                    <p>{station.fields.nbvelosdispo} vélos</p>
+                  </div>
+                  <div class="info_velos">
+                    <img src="./parking.png" alt="parking à vélos" />
+                    <p>{station.fields.nbplacesdispo} places</p>
+                  </div>
+                </div>
+                <div class="cb_popup">
+                  {station.fields.type === "AVEC TPE" ? (
+                    <>
+                      <img
+                        src="./card_ok.png"
+                        alt="cb acceptée"
+                        class="img_cb"
+                      />
+                      <p>CB disponible</p>
+                    </>
+                  ) : (
+                    <>
+                      <img
+                        src="card_refusee.png"
+                        alt="cb refusée"
+                        class="img_cb"
+                      />
+                      <p>CB indisponible</p>
+                    </>
+                  )}
+                </div>
               </Popup>
             )}
           </Marker>

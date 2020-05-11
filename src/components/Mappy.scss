@@ -1,16 +1,38 @@
 .leaflet-container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: 0;
 }
 
-.popup .leaflet-popup-content-wrapper {
-  color: rgb(255, 0, 119);
-}
-.popupUnavailable .leaflet-popup-content-wrapper {
-  color: grey;
+.wrapper {
+  display: flex;
+  line-height: 1;
+  justify-content: space-around;
 }
 
-.marker .popup .leaflet-popup-content-wrapper {
-  background-color: red;
+.wrapper p {
+  font-size: 100%;
+}
+
+.info_velos {
+  margin: 1vh;
+}
+
+.title_popup {
+  font-size: 1.7vh;
+  text-align: center;
+  width: 100%;
+}
+
+.cb_popup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .img_cb {
+    width: 30px;
+    height: 30px;
+  }
 }
