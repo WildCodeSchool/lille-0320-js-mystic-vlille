@@ -3,26 +3,6 @@ import "./List.scss";
 import Cb from "../icons/Cb";
 
 export default function List({ stations, stationState }) {
-  const changeIcon = (station) => {
-    const percentage =
-      station.fields.nbvelosdispo /
-      (station.fields.nbvelosdispo + station.fields.nbplacesdispo);
-    if (percentage === 0) {
-      return "/empty.png";
-    }
-    if (percentage > 0 && percentage <= 0.25) {
-      return "/quater.png";
-    }
-    if (percentage > 0.25 && percentage <= 0.5) {
-      return "/half.png";
-    }
-    if (percentage > 0.5 && percentage <= 0.75) {
-      return "/trois.png";
-    } else {
-      return "/full.png";
-    }
-  };
-
   const changeDistance = (station) => {
     let article = "km";
     if (station.distance < 1) {
@@ -43,8 +23,9 @@ export default function List({ stations, stationState }) {
             <div key={station.fields.libelle} className="contain">
               {!stationState(station) && (
                 <div className="list">
-                  <div className="image">
-                    <img alt="jauge" src={changeIcon(station)} />
+                  <div className="velo-park">
+                    <p>{station.fields.nbvelosdispo} vélos</p>
+                    <p>{station.fields.nbplacesdispo} places</p>
                   </div>
                   <div className="title">
                     <h2
@@ -58,11 +39,11 @@ export default function List({ stations, stationState }) {
                     <p>{changeDistance(station)}</p>
                   </div>
                   <div className="mesListes">
-                    <div>
-                      <p>Nombres vélos: {station.fields.nbvelosdispo}</p>
-                      <p>Nombres places: {station.fields.nbplacesdispo}</p>
-                    </div>
-                    {station.fields.type === "AVEC TPE" && <Cb />}
+                    {station.fields.type === "AVEC TPE" ? (
+                      <img src="./card_ok.png" alt="cb acceptée" />
+                    ) : (
+                      <img src="card_refusee.png" alt="cb refusée" />
+                    )}
                   </div>
                 </div>
               )}{" "}

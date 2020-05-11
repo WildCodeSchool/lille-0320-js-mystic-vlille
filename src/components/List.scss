@@ -17,16 +17,7 @@
 
 h2 {
   text-align: center;
-}
-
-img {
-  height: 49.58px;
-  width: 35px;
-}
-
-.image {
-  width: 25%;
-  margin: auto;
+  font-size: 100%;
 }
 
 .title {
@@ -36,4 +27,14 @@ img {
 
 .contain {
   justify-content: space-around;
+}
+
+.velo-park {
+  width: 40%;
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    width: 30px;
+  }
 }
