@@ -78,6 +78,11 @@ const useStyles = makeStyles((theme) => ({
     padding: "0",
     marginTop: "0",
     marginLeft: "30px",
+    fontSize: "0.9rem",
+  },
+
+  modalTitle: {
+    fontSize: "1rem",
   },
 }));
 

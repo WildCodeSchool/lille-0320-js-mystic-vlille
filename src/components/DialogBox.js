@@ -65,7 +65,7 @@ export default function ScrollDialog() {
                   src="/full.png"
                   alt="jauge pleine"
                 />
-                <h3>La jauge est pleine</h3>
+                <h3 className={classes.modalTitle}>La jauge est pleine</h3>
               </div>
               <p className={classes.modalText}>
                 Il n'y a plus de place mais la totalité du parc de vélos est
@@ -77,7 +77,9 @@ export default function ScrollDialog() {
                   src="/trois.png"
                   alt="jauge trois quart"
                 />
-                <h3>La jauge est au trois-quart plein</h3>
+                <h3 className={classes.modalTitle}>
+                  La jauge est au trois-quart plein
+                </h3>
               </div>
               <p className={classes.modalText}>
                 Il reste plus de vélos que de places
@@ -89,7 +91,9 @@ export default function ScrollDialog() {
                   src="/half.png"
                   alt="jauge à moitié"
                 />
-                <h3>La jauge est à moitié pleine</h3>
+                <h3 className={classes.modalTitle}>
+                  La jauge est à moitié pleine
+                </h3>
               </div>
               <p className={classes.modalText}>
                 Il reste autant de vélos que de places
@@ -100,7 +104,9 @@ export default function ScrollDialog() {
                   src="/quater.png"
                   alt="jauge un quart"
                 />
-                <h3>La jauge est au quart plein</h3>
+                <h3 className={classes.modalTitle}>
+                  La jauge est au quart plein
+                </h3>
               </div>
               <p className={classes.modalText}>
                 Il ne reste pas beaucoup de vélos sur cette station
@@ -111,7 +117,7 @@ export default function ScrollDialog() {
                   src="/empty.png"
                   alt="jauge vide"
                 />
-                <h3>La jauge est vide</h3>
+                <h3 className={classes.modalTitle}>La jauge est vide</h3>
               </div>
               <p className={classes.modalText}>
                 Il n'a plus de vélo mais la totalité des places est disponible
@@ -122,14 +128,14 @@ export default function ScrollDialog() {
                   src="/grey.png"
                   alt="jauge vide"
                 />
-                <h3>La jauge est grise</h3>
+                <h3 className={classes.modalTitle}>La jauge est grise</h3>
               </div>
               <p className={classes.modalText}>La station est hors service</p>
             </div>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} color="primary">
+          <Button onClick={handleClose} color="secondary">
             J'ai compris
           </Button>
         </DialogActions>
