@@ -31,10 +31,20 @@ h2 {
 
 .velo-park {
   width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.velo-park p {
+  margin: 0;
 }
 
 @media screen and (max-width: 900px) {
   img {
     width: 30px;
+  }
+  .velo-park p {
+    font-size: 80%;
   }
 }

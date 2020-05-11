@@ -1,6 +1,5 @@
 import React from "react";
 import "./List.scss";
-import Cb from "../icons/Cb";
 
 export default function List({ stations, stationState }) {
   const changeDistance = (station) => {
@@ -24,8 +23,14 @@ export default function List({ stations, stationState }) {
               {!stationState(station) && (
                 <div className="list">
                   <div className="velo-park">
-                    <p>{station.fields.nbvelosdispo} vélos</p>
-                    <p>{station.fields.nbplacesdispo} places</p>
+                    <div>
+                      <img src="./velo.png" alt="velo" />
+                      <p>{station.fields.nbvelosdispo} vélos</p>
+                    </div>
+                    <div>
+                      <img src="./parking.png" alt="parking à vélos" />
+                      <p>{station.fields.nbplacesdispo} places</p>
+                    </div>
                   </div>
                   <div className="title">
                     <h2
