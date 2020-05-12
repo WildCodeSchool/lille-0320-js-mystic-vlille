@@ -4,8 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import Fab from "@material-ui/core/Fab";
-import AddIcon from "@material-ui/icons/Add";
+import ScrollDialog from "./DialogBox";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -15,13 +14,36 @@ const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
   },
-  fabButton: {
-    position: "absolute",
-    zIndex: 1,
-    top: -30,
-    left: 0,
-    right: 0,
-    margin: "0 auto",
+  modal: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  paper: {
+    backgroundColor: theme.palette.background.paper,
+  },
+  modalButton: {
+    cursor: "pointer",
+  },
+  modalLegend: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "0",
+  },
+  modalImg: {
+    width: "20px",
+    height: "28.33px",
+    margin: "15px",
+  },
+  modalText: {
+    padding: "0",
+    marginTop: "0",
+    marginLeft: "30px",
+    fontSize: "0.9rem",
+  },
+
+  modalTitle: {
+    fontSize: "1rem",
   },
 }));
 export default function BottomAppBar() {
@@ -36,9 +58,9 @@ export default function BottomAppBar() {
             color="inherit"
             aria-label="open drawer"
           ></IconButton>
-          <Fab color="secondary" aria-label="add" className={classes.fabButton}>
-            <AddIcon />
-          </Fab>
+
+          <ScrollDialog />
+
           <div className={classes.grow} />
         </Toolbar>
       </AppBar>

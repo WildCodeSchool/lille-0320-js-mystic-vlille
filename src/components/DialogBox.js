@@ -5,7 +5,7 @@ import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
+import NotListedLocationIcon from "@material-ui/icons/NotListedLocation";
 import useStyles from "./UseStyles";
 
 export default function ScrollDialog() {
@@ -34,11 +34,13 @@ export default function ScrollDialog() {
 
   return (
     <div>
-      <HelpOutlineIcon
+      <NotListedLocationIcon
         type="button"
         onClick={handleClickOpen("paper")}
         className={classes.modalButton}
         title="Aide"
+        style={{ fontSize: 60 }}
+        color="secondary"
       />
       <Dialog
         open={open}
