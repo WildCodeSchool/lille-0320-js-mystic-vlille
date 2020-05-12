@@ -60,9 +60,6 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: theme.palette.background.paper,
-    border: "1px solid",
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
   },
   modalButton: {
     cursor: "pointer",
@@ -81,6 +78,11 @@ const useStyles = makeStyles((theme) => ({
     padding: "0",
     marginTop: "0",
     marginLeft: "30px",
+    fontSize: "0.9rem",
+  },
+
+  modalTitle: {
+    fontSize: "1rem",
   },
 }));
 
