@@ -102,7 +102,7 @@ export default function Mappy({ stations, stationState }) {
                   ) : (
                     <>
                       <img
-                        src="card_refusee.png"
+                        src="./card_refusee.png"
                         alt="cb refusée"
                         class="img_cb"
                       />
