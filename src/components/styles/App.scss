@@ -6,5 +6,11 @@
 }
 
 .loader img {
-  width: 50vw;
+  width: 25vw;
+}
+
+@media screen and (max-width: 900px) {
+  .loader img {
+    width: 50vw;
+  }
 }
