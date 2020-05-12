@@ -1,12 +1,4 @@
-import React from "react";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import InputBase from "@material-ui/core/InputBase";
 import { fade, makeStyles } from "@material-ui/core/styles";
-import MenuIcon from "@material-ui/icons/Menu";
-import SearchIcon from "@material-ui/icons/Search";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,18 +53,37 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   },
+  modal: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  paper: {
+    backgroundColor: theme.palette.background.paper,
+  },
+  modalButton: {
+    cursor: "pointer",
+  },
+  modalLegend: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "0",
+  },
+  modalImg: {
+    width: "20px",
+    height: "28.33px",
+    margin: "15px",
+  },
+  modalText: {
+    padding: "0",
+    marginTop: "0",
+    marginLeft: "30px",
+    fontSize: "0.9rem",
+  },
+
+  modalTitle: {
+    fontSize: "1rem",
+  },
 }));
-export default function NavBar() {
-  const classes = useStyles();
-  return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography className={classes.title} variant="h6" noWrap>
-            V'Lille App
-          </Typography>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
-}
+
+export default useStyles;

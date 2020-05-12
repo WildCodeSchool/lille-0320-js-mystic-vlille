@@ -1,0 +1,50 @@
+.list {
+  display: flex;
+  border: 1px black solid;
+  text-align: center;
+  margin: 0;
+}
+
+.mesListes {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+  margin: auto;
+  width: 25%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 100%;
+}
+
+.title {
+  text-align: center;
+  width: 50%;
+}
+
+.contain {
+  justify-content: space-around;
+}
+
+.velo-park {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.velo-park p {
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    width: 30px;
+  }
+  .velo-park p {
+    font-size: 80%;
+  }
+}
