@@ -1,39 +1,14 @@
 import React from "react";
-import "./Mappy.scss";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import { Icon } from "leaflet";
+import {
+  iconeEmpty,
+  iconeGrey,
+  iconeFull,
+  iconeHalf,
+  iconeQuarter,
+  iconeTroisQuart,
+} from "./styles/Icon";
 import LocateControl from "./geo-local";
-import Search from "./styles/searchBarMap";
-
-const iconeFull = new Icon({
-  iconUrl: "/full.png",
-  iconSize: [35, 49.58],
-});
-
-const iconeHalf = new Icon({
-  iconUrl: "/half.png",
-  iconSize: [35, 49.58],
-});
-
-const iconeQuarter = new Icon({
-  iconUrl: "/quater.png",
-  iconSize: [35, 49.58],
-});
-
-const iconeTroisQuart = new Icon({
-  iconUrl: "/trois.png",
-  iconSize: [35, 49.58],
-});
-
-const iconeEmpty = new Icon({
-  iconUrl: "/empty.png",
-  iconSize: [35, 49.58],
-});
-
-const iconeGrey = new Icon({
-  iconUrl: "/grey.png",
-  iconSize: [35, 49.58],
-});
 
 export default function Mappy({ stations, stationState }) {
   const changeIcon = (station) => {
@@ -126,7 +101,7 @@ export default function Mappy({ stations, stationState }) {
                   ) : (
                     <>
                       <img
-                        src="card_refusee.png"
+                        src="./card_refusee.png"
                         alt="cb refusée"
                         class="img_cb"
                       />

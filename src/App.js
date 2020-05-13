@@ -6,15 +6,18 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import List from "./components/List";
 import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
+import "./components/styles/App.scss";
 
 export default function App() {
   const [stations, setStations] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     getVlilleLocalisation();
   }, []);
 
   const getVlilleLocalisation = () => {
+    setLoading(true);
     axios
       .get(
         "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&rows=244&facet=libelle&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion"
@@ -25,11 +28,23 @@ export default function App() {
           return distance(station);
         });
         setStations(data.records);
+        setLoading(false);
       });
     setTimeout(() => {
       getVlilleLocalisation();
     }, 2 * 1000 * 60);
   };
+
+  if (loading) {
+    return (
+      <div className="loader">
+        <img
+          src="./loading.gif"
+          alt="Veillez patienter pendant le chargement..."
+        />
+      </div>
+    );
+  }
 
   const stationState = (station) => {
     const unavailable = "Indisponible";
@@ -60,6 +75,12 @@ export default function App() {
 
   return (
     <Router>
+      {loading && (
+        <img
+          src="./loading.gif"
+          alt="Veillez patienter pendant le chargement..."
+        />
+      )}
       <NavBar />
       <Switch>
         <Route exact path="/">
