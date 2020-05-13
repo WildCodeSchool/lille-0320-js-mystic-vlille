@@ -3,12 +3,12 @@ import "./List.scss";
 
 export default function List({ stations, stationState }) {
   const changeDistance = (station) => {
-    let article = "km";
     if (station.distance < 1) {
-      station.distance = Math.round(station.distance * 1000);
-      article = "m";
+      station.distance = `${Math.round(station.distance * 1000)} m`;
     }
-    station.distance = `${station.distance}  ${article}`;
+    if (station.distance >= 1) {
+      station.distance = `${station.distance} km`;
+    }
     return station.distance;
   };
   return (
