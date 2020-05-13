@@ -9,7 +9,6 @@ import {
   iconeTroisQuart,
 } from "./styles/Icon";
 import LocateControl from "./geo-local";
-import "./Mappy.scss";
 
 export default function Mappy({ stations, stationState }) {
   const changeIcon = (station) => {
@@ -116,6 +115,7 @@ export default function Mappy({ stations, stationState }) {
         );
       })}
       <LocateControl options={locateOptions} />
+      <Search />
     </Map>
   );
 }
