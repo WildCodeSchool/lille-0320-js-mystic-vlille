@@ -1,0 +1,16 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.loader img {
+  width: 25vw;
+}
+
+@media screen and (max-width: 900px) {
+  .loader img {
+    width: 50vw;
+  }
+}
