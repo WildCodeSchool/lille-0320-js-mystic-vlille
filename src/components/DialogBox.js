@@ -1,13 +1,47 @@
 import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
-import useStyles from "./UseStyles";
+import NotListedLocationIcon from "@material-ui/icons/NotListedLocation";
 
+const useStyles = makeStyles((theme) => ({
+  modal: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  paper: {
+    backgroundColor: theme.palette.background.paper,
+  },
+  modalButton: {
+    cursor: "pointer",
+    float: "left",
+  },
+  modalLegend: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "0",
+  },
+  modalImg: {
+    width: "20px",
+    height: "28.33px",
+    margin: "15px",
+  },
+  modalText: {
+    padding: "0",
+    marginTop: "0",
+    marginLeft: "30px",
+    fontSize: "0.9rem",
+  },
+
+  modalTitle: {
+    fontSize: "1rem",
+  },
+}));
 export default function ScrollDialog() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
@@ -34,11 +68,12 @@ export default function ScrollDialog() {
 
   return (
     <div>
-      <HelpOutlineIcon
+      <NotListedLocationIcon
         type="button"
         onClick={handleClickOpen("paper")}
         className={classes.modalButton}
-        title="Aide"
+        color="white"
+        fontSize="large"
       />
       <Dialog
         open={open}
@@ -101,7 +136,7 @@ export default function ScrollDialog() {
               <div className={classes.modalLegend}>
                 <img
                   className={classes.modalImg}
-                  src="/quater.png"
+                  src="/quarter.png"
                   alt="jauge un quart"
                 />
                 <h3 className={classes.modalTitle}>
